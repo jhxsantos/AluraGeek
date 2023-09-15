@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" media="screen" />
+</head>
+<body> 
+    <header>
+        <section class="cabecalho" id="cabecalho">
+            <a class="cabecalho__logo" id="cabecalho__logo" href="../index.html">
+                <img class="cabecalho__logo__imagem" src="../img/logotipo.png" alt="Logotipo AluraGeek" />
+            </a>
+            <div class="cabecalho__pesquisa" id="cabecalho__pesquisa">
+                <input class="cabecalho__pesquisa__input" id="cabecalho__pesquisa__input" type="search" placeholder="O que deseja encontrar?"/>
+                <img class="cabecalho__pesquisa__lupa-1" src="../img/lupa.png" alt="Botão de pesquisa (lupa)" />
+            </div>
+            <div class="cabecalho__login" id="cabecalho__login">
+                <a class="cabecalho__login__botao" id="cabecalho__login__botao" href="./login.html">Login</a>
+                <div class="cabecalho__login__usuario" id="cabecalho__login__usuario">
+                    <h2  class="cabecalho__login__usuario__usuario" id="cabecalho__login__usuario__usuario">fulano</h2>
+                    <img class="cabecalho__login__usuario__avatar" id="cabecalho__login__usuario__avatar" src="#"/>
+                    <a class="cabecalho__login__usuario__sair" id="cabecalho__login__usuario__sair" href="#">sair</a>
+                </div>
+            </div>
+            <div class="cabecalho__lupa">
+                <img class="cabecalho__pesquisa__lupa-2" src="../img/lupa.png" alt="Botão de pesquisa (lupa)" />
+                <img class="cabecalho__pesquisa__fechar-pesquisa" src="../img/fechar1.png" alt="Botão de fechar pesquisa (lupa)" />
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="cadastro" id="cadastro">            
+            <form class="cadastro__formulario" id="cadastro__formulario">
+                <div class="cadastro__container__input">
+                    <label class="cadastro__titulo">Adicionar novo produto</label>
+                </div>                
+                <div class="cadastro__container__input__imagem">
+                    <span class="cadastro__imagem" id="cadastro__imagem">
+                        <img class="cadastro__imagem__imagem" id="cadastro__imagem__imagem" src=""/>
+                    </span>
+                    <label class="cadastro__label__input__imagem botao" for="cadastro__input_imagem">Escolher imagem</label>
+                    <input class="cadastro__input_imagem" id="cadastro__input_imagem" name="cadastro__input_imagem" type="file" accept="image/png,image/jpeg,image/jpg" multiple/>
+                </div>
+                <div class="cadastro__container__input">
+                    <label class="cadastro__label__input" for="cadastro__input_nome">Nome do produto</label>
+                    <input class="cadastro__input_nome cadastro__texto__input" type="text" id="cadastro__input_nome" maxlength="60" required/>
+                </div>
+                <div class="cadastro__container__input">
+                    <label class="cadastro__label__input" for="cadastro__input_categoria">Categoria do produto</label>
+                    <select  class="cadastro__input_categoria cadastro__texto__input" type="text" id="cadastro__input_categoria" required>
+                        
+                      </select>
+                </div>
+                <div class="cadastro__container__input">
+                    <label class="cadastro__label__input" for="cadastro__input_preco">Preço do produto</label>
+                    <input class="cadastro__input_preco cadastro__texto__input" type="text" id="cadastro__input_preco" required/>
+                </div>
+                <div class="cadastro__container__input">
+                    <label class="cadastro__label__input" for="cadastro__input__descricao"></label>
+                    <textarea class="cadastro__input__descricao" id="cadastro__input__descricao" placeholder="Descrição do produto" maxlength="500" required></textarea>
+                </div>
+                <div class="cadastro__container__input">
+                    <input class="cadastro__botao__adicionar botao" type="button" id="cadastro__botao__adicionar" value="Salvar"/>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="rodape">
+            <div class="rodape__logotipo">
+                <a href="../index.html">
+                    <img class="rodape__logotipo__imagem" src="../img/logotipo.png" alt="Logotipo da AluraGeek" />
+                </a>
+            </div>
+            <div class="rodape__links">
+                <a class="rodape__links__link" href="#">Quem somos nós</a>
+                <a class="rodape__links__link" href="#">Política de privacidade</a>
+                <a class="rodape__links__link" href="#">Programa de fidelidade</a>
+                <a class="rodape__links__link" href="#">Nossas lojas</a>
+                <a class="rodape__links__link" href="#">Quero ser franqueado</a>
+                <a class="rodape__links__link" href="#">Anuncie aqui</a>
+            </div>
+            <form class="rodape__fale-conosco" id="rodape__fale-conosco">
+                <label class="rodape__fale-conosco__label">Fale conosco</label>
+                <div class="rodape__fale-conosco__container__input">
+                    <label class="rodape__fale-conosco__label__input" for="rodape__fale-conosco__nome">Nome</label>
+                    <input class="rodape__fale-conosco__nome" id="rodape__fale-conosco__nome" type="text" maxlength="40" required/>
+                </div>
+                <div class="rodape__fale-conosco__container__input">
+                    <label class="rodape__fale-conosco__label__input" for="rodape__fale-conosco__mensagem"></label>
+                    <textarea class="rodape__fale-conosco__mensagem" id="rodape__fale-conosco__mensagem" placeholder="Mensagem" maxlength="120" required></textarea>
+                </div>
+                <div>
+                    <input class="rodape__fale-conosco__botao botao" type="button" value="Enviar mensagem" />
+                </div>
+            </form>
+        </div>
+        <div class="rodape__info-pagina">
+            <p class="rodape__texto">Desenvolvido por José Henrique Santos</p>
+            <p class="rodape__texto">2023</p>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="module" src="../js/incluir-produto.js"></script>
+<script type="module" src="../js/fale-conosco.js"></script>
+
+</html> 

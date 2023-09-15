@@ -1,0 +1,59 @@
+.swal-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.swal-modal {
+    background-color: var(--cor-de-fundo);
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.swal-title {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); 
+    font-family:  var(--fonte-principal);
+    font-weight: 100;
+    font-size: 16px;
+    color: var(--cor-do-texto-01);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+}
+
+.swal-text {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); 
+    background-color: var(--cor-busca-bg);
+    font-family:  var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 100;
+    padding: 17px;
+    border: none;
+    border-radius: 0px;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: var(--cor-do-texto-01);
+}
+
+.swal-footer {
+    background-color: var(--cor-de-fundo);
+    margin-top: 32px0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.swal-button {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0); 
+    width: 150px;
+    font-size: 16px;
+    font-family:  var(--fonte-principal);
+    font-weight: 100;
+    padding: 1rem;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    background-color: var(--cor-do-botao);
+    color: var(--cor-de-fundo);
+    cursor: pointer;
+}
+
+.swal-button:hover {
+    background-color: var(--cor-do-botao-hover);
+}

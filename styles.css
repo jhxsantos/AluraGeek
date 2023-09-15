@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('./css/reset.css');
+@import url('./css/cabecalho.css');
+@import url('./css/banner.css');
+@import url('./css/produtos.css');
+@import url('./css/rodape.css');
+@import url('./css/login.css');
+@import url('./css/cadastrarProdutos.css');
+@import url('./css/mostrarProduto.css');
+@import url('./css/listarProdutos.css');
+@import url('./css/sweetAlert.css');
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cor-do-botao: #2A7AE4;
+    --cor-do-botao-hover: #5595E9;
+    --cor-do-texto-01: #464646;
+    --cor-do-rodape: #EAF2FD;
+    --cor-busca-bg: #F5F5F5;
+
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+
+.rodape__fale-conosco__nome:-webkit-autofill,
+.cadastro__input_nome:-webkit-autofill,
+.cadastro__input_preco:-webkit-autofill,
+.login__input_email
+{
+    /* Cor de fundo do autocomplete */
+    -webkit-box-shadow: 0 0 0 30px var(--cor-de-fundo) inset;
+
+    /* Cor do texto do autocomplete */
+    -webkit-text-fill-color: var(--cor-do-texto-01) !important;
+}
+
+/*** PARA O SCROLL SUAVE ***/
+html {
+    scroll-behavior: smooth;
+  }
+   
+:target {
+    scroll-margin-top: 2rem;
+  }
+/***************************/
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal); 
+    color: var(--cor-do-texto-1);
+}
+
+h1 {
+    font-size: 22px;
+    color: var(--cor-de-fundo);
+}
+
+h2 {
+    font-size: 14px;
+    color: var(--cor-de-fundo);
+}

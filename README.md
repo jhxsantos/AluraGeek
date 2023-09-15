@@ -1,2 +1,2 @@
 # AluraGeek
-Projeto Front-End para o Alura Challenge 3° Edição
+Projeto Front-End de loja virtual fictícia para o Alura Challenge 3° Edição

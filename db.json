@@ -9,6 +9,22 @@
 		"id": 1
 	  }
 	],
+	"usuarios": [
+	  {
+		"email": "jhxsantos@email.com",
+		"senha": "12345",
+		"nome": "José Henrique",
+		"tipo": "admin",
+		"id": 1
+	  },
+	  {
+		"email": "elisa@email.com",
+		"senha": "12345",
+		"nome": "Maria Elisa",
+		"tipo": "cliente",
+		"id": 2
+	  }
+	],
 	"categorias": [
 	  {
 		"categoria": "consoles",

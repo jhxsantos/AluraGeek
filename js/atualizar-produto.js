@@ -1,6 +1,8 @@
+import { urlAPI } from "./urlAPI.js";
+
 export const atualizarProduto = async (idProduto, nome, preco, descricao, categoria, imagem) => {
 
-    const resposta = await fetch(`http://localhost:3000/produtos/${idProduto}`, {
+    const resposta = await fetch(`${urlAPI}/produtos/${idProduto}`, {
         method: "PUT",
         headers: {
             'content-type': "application/json"

@@ -1,6 +1,7 @@
 import { preparaProdutosParaMostrar } from "./listar-produtos.js";
 import { listarItens } from "./listar-produtos.js";
 import { pesquisar } from "./pesquisa.js";
+import { urlAPI } from "./urlAPI.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
@@ -84,25 +85,24 @@ window.addEventListener("load", async () => {
 
         const url_string = window.location.href;
         const url = new URL(url_string);
-        let categoria = url.searchParams.get("categoria");
+        const categoria = url.searchParams.get("categoria");
         let termoPesquisa = url.searchParams.get("termoPesquisa");
 
         let nomeCategoria = "Todos os produtos";
         let produtos = "";
         if (categoria) {
-            categoria = `categoria=${categoria}&`;
-            const resposta = await listarItens(`http://localhost:3000/categorias?${categoria}`);
+            const resposta = await listarItens(`${urlAPI}/categorias?categoria=${categoria}`);
             nomeCategoria = resposta[0].nomeCategoria;            
-            produtos = await preparaProdutosParaMostrar('http://localhost:3000/produtos?' + categoria, categoria, nomeCategoria, "cadastro");
+            produtos = await preparaProdutosParaMostrar(`${urlAPI}/produtos?categoria=${categoria}`, categoria, nomeCategoria, "cadastro");
         } else if (termoPesquisa) { //pesquisar pelo termo informado
             produtos = await pesquisar(termoPesquisa);
         } else { //mostrar todos os produtos
-            produtos = await preparaProdutosParaMostrar('http://localhost:3000/produtos', categoria, nomeCategoria, "cadastro");
+            produtos = await preparaProdutosParaMostrar(`${urlAPI}/produtos`, categoria, nomeCategoria, "cadastro");
         }
 
         let mensagem = "Não há produtos para exibir";
-        if (termoPesquisa) mensagem = `A busca por "${termoPesquisa} não retornou produtos`;        
-        mostrarProdutos(produtos, mensagem);
+        if (termoPesquisa) mensagem = `A busca por "${termoPesquisa}" não retornou produtos`;        
+        await mostrarProdutos(produtos, mensagem);
             
         // verifica usuário logado
         const botaoAdicionar = document.getElementById("produtos__botao__adicionar");        
@@ -137,7 +137,7 @@ function mostrarProdutos(produtos, mensagem) {
     if (produtos === "") {
         containerProdutos.innerHTML = `<div class="mensagem_container">
                                             <p class="mensagem">${mensagem}</p>
-                                            <a class="mensagem__botao" href="../html/cadastrarProdutos.html"}>Cadastrar produto</a>
+                                            <a class="produtos__botao__adicionar botao" id="produtos__botao__adicionar" href="../html/cadastrarProdutos.html"}>Cadastrar produto</a>
                                         </div>`;
     } else {
         containerProdutos.innerHTML = produtos;                    

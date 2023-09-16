@@ -1,9 +1,10 @@
 import { listarItens } from "./listar-produtos.js";
 import { preparaProdutosParaMostrar } from "./listar-produtos.js";
+import { urlAPI } from "./urlAPI.js";
 
 export async function pesquisar(termoPesquisa) {    
 
-    const produtos = await listarItens('http://localhost:3000/produtos');
+    const produtos = await listarItens(`${urlAPI}/produtos`);
     let produtosEncontrados = [];
 
     if (termoPesquisa.length > 0) {
@@ -40,13 +41,4 @@ export async function pesquisar(termoPesquisa) {
                                                             produtosEncontrados);
     return produtosParaMostrar;
 
-    // const containerProdutos = document.querySelector("#container__produtos");                                
-    // if (produtosParaMostrar === "") {
-    //     containerProdutos.innerHTML = `<div class="mensagem_container">
-    //                                     <p class="mensagem">A pesquisa por "${termoPesquisa}" não retornou produtos.</p>
-    //                                     <a class="mensagem__botao" href="../html/cadastrarProdutos.html"}>Cadastrar produto</a>
-    //                                     </div>`;
-    // } else {
-    //     containerProdutos.innerHTML = produtosParaMostrar;
-    // }
 }

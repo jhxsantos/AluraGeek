@@ -1,191 +1,239 @@
 {
-	"produtos": [
-	  {
-		"nome": "Fantasia Pikachu",
-		"preco": 975.5,
-		"descricao": "Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi Tajiri.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 1
-	  },
-	  {
-		"nome": "Nintendo 8bits (nintendinho)",
-		"preco": 3500.25,
-		"descricao": "O Nintendo Entertainment System (abreviado como NES; popularmente chamado de Nintendinho no Brasil) é um console de videogame de 8 bits lançado pela Nintendo na América do Norte, Europa, Ásia, Austrália e Brasil.",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 2
-	  },
-	  {
-		"nome": "Capacetes Star Wars de lego",
-		"preco": 102,
-		"descricao": "Preste homenagem ao Dark Lord do Sith com este modelo colecionável LEGO® Star Wars™ Capacete de Darth Vader (75304). Mergulhe no complexo processo de construção e reviva cenas da saga clássica de Star Wars enquanto recria a icônica forma e detalhes sinistros do capacete em estilo LEGO. O Capacete de Darth Vader tem um tamanho compacto e um suporte para exposição com placa de identificação para completar uma peça central notória que vai melhorar a decoração de sua casa ou lugar de trabalho.",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 3
-	  },
-	  {
-		"nome": "Estátua Mestre Yoda (20cm)",
-		"preco": 900,
-		"descricao": "Yoda é um personagem fictício no universo de Star Wars, criado por George Lucas. Ele aparece em seis filmes da saga. Frank Oz, célebre criador dos Muppets, é o responsável pela sua voz. Possui apenas 76 centímetros, mas foi um sábio Mestre Jedi que liderou o Conselho Jedi por anos.",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 4
-	  },
-	  {
-		"nome": "Caneca storm trooper",
-		"preco": 65.2,
-		"descricao": "Com um design 3D exclusivo, a caneca apresenta uma réplica em miniatura do icônico soldado imperial Stormtrooper, um dos personagens mais emblemáticos da saga.",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 5
-	  },
-	  {
-		"nome": "Game Boy",
-		"preco": 900.99,
-		"descricao": "O Game Boy é um console portátil desenvolvido pela Nintendo, lançado em 21 de abril de 1989 no Japão, em 31 de julho de 1989 na América do Norte e em 28 de setembro de 1990 na Europa, é o primeiro console da linha Game Boy, foi criado por Gunpei Yokoi e pela Nintendo Research & Development 1, versões redesenhadas do console foram lançadas em 1996 e em 1998, o Game Boy Pocket e o Game Boy Light (somente para o Japão).",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 7
-	  },
-	  {
-		"nome": "X-Box 360",
-		"preco": 4200.15,
-		"descricao": "Xbox é uma marca de consoles de jogos eletrônicos criada e patenteada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox.",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 8
-	  },
-	  {
-		"nome": "Boneco Sonic (10cm)",
-		"preco": 25,
-		"descricao": "Sonic the Hedgehog é uma série de jogos e uma franquia multimídia japonesa criada pelo Sonic Team e produzida pela Sega. A franquia segue Sonic, cuja vida pacífica é sempre interrompida pelo antagonista principal da série, Dr. Eggman.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 9
-	  },
-	  {
-		"nome": "Joysticks Nintendo Switch",
-		"preco": 320.99,
-		"descricao": "A linha Nintendo Switch é o lar de jogos exclusivos de séries como Super Smash Bros.™, The Legend of Zelda™, Mario Kart™ e muitos outros títulos.\n\nVocê também encontrará grandes jogos de outros desenvolvedores!",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 10
-	  },
-	  {
-		"nome": "Joystick X-Box",
-		"preco": 420,
-		"descricao": "Tire proveito dos botões customizáveis, gatilhos, controles e capas de botões personalizáveis, além de botões posteriores e muito mais. Construído com foco no alto desempenho e na personalização, o controle também retém todos os recursos imersivos do controle sem fio DualSense.",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 11
-	  },
-	  {
-		"nome": "Radiorrelógio cor de rosa",
-		"preco": 145.6,
-		"descricao": "Radiorrelógio ou radiodespertador é um relógio combinado com um rádio, em geral com as faixas de AM (amplitude modulada) e de FM (frequência modulada). O aparelho, assim, pode também utilizar o som do rádio para dar o alarme quando necessário.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 13
-	  },
-	  {
-		"nome": "Boneco Grogu (baby Yoda)",
-		"preco": 210.5,
-		"descricao": "Grogu, inicialmente chamado de A criança,[1][2] popularmente conhecido como Baby Yoda, é um personagem fictício do universo da franquia de ficção científica Star Wars, que apareceu pela primeira vez na série The Mandalorian, do serviço de exibição de vídeos on-line (streaming) Disney Plus; Um membro infantil da espécie do personagem Yoda e Yaddle, com quem compartilha uma forte habilidade de controle da Força. ",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 14
-	  },
-	  {
-		"nome": "Playstation 5",
-		"preco": 5000,
-		"descricao": "O PlayStation 5 (oficialmente abreviado como PS5) é um console de jogos eletrônicos de nona geração, desenvolvido pela Sony Interactive Entertainment. Foi anunciado em outubro de 2018[6] e confirmado em outubro de 2019[7] como o quinto da série PlayStation e sucessor do PlayStation 4. O console foi lançado em 12 de novembro de 2020 na América do Norte, Austrália, Coreia do Sul, Japão, Nova Zelândia e Singapura. E em 11 de dezembro de 2020 foi lançado nas Filipinas.",
-		"categoria": "consoles",
-		"imagem": "",
-		"id": 15
-	  },
-	  {
-		"nome": "Boneco Kylo Ren",
-		"preco": 137.99,
-		"descricao": "Ben Solo, que mais tarde assumiu o nome de Kylo Ren,[2][3] é um personagem do universo de Star Wars, servindo como o principal antagonista (ao lado de Palpatine) da terceira trilogia. Ele é filho da Princesa Leia com Han Solo e possui uma relação complicada com a protagonista Rey, a neta do Imperador, sendo ela sua principal rival, ao mesmo tempo em que eles progressivamente começam a se apaixonar um pelo outro.",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 16
-	  },
-	  {
-		"nome": "Boneco storm trooper (25cm)",
-		"preco": 370.99,
-		"descricao": "Os Stormtroopers são a tropa de base do Império Galáctico no universo Star Wars.\n\nDevido à extensão do Império existem variações para diferentes terrenos e situações. Os Sandtroopers para os terrenos desérticos, Snowtroopers para terrenos congelados, Scouttroper para reconhecimento e pilotagem de Speeders entre muitos outros.",
-		"categoria": "starwars",
-		"imagem": "",
-		"id": 18
-	  },
-	  {
-		"nome": "Bandeira Atari",
-		"preco": 88.99,
-		"descricao": "Atari, Inc. foi uma empresa de produtos eletrônicos, e uma das principais responsáveis pela popularização dos vídeo games. Foi fundada em 27 de junho de 1972 por Nolan Bushnell e Ted Dabney e no mesmo ano começou a produzir em massa máquinas que reproduziam o jogo Pong.\n\nEm 1976, a empresa foi adquirida pela Warner Communications, e após a crise de 1984, a empresa foi encerrada, se tornando duas.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 19
-	  },
-	  {
-		"nome": "Camiseta Nintendo 8bits",
-		"preco": 36.52,
-		"descricao": "O Nintendo Entertainment System (abreviado como NES; popularmente chamado de Nintendinho no Brasil) é um console de videogame de 8 bits lançado pela Nintendo na América do Norte, Europa, Ásia, Austrália e Brasil.\n\nOriginalmente lançado no Japão em 1983 com o nome de Nintendo Family Computer, Family Computer, ou apenas Famicom, o sistema foi redesenhado e recebeu o novo nome para ser lançado no mercado americano em 1985. O NES/Famicom foi o videogame de maior sucesso comercial na sua época.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 20
-	  },
-	  {
-		"nome": "Óculos de realidade virtual (VR)",
-		"preco": 7200.99,
-		"descricao": "Realidade virtual é uma tecnologia de interface capaz de enganar os sentidos de um usuário por meio de um ambiente virtual criado a partir de um sistema computacional. Ao induzir efeitos visuais, sonoros e até táteis, a realidade virtual permite a imersão completa em um ambiente simulado, com ou sem interação do usuário. Atualmente, a realidade virtual tem como base displays estereoscópicos, como óculos e headsets.",
-		"categoria": "diversos",
-		"imagem": "",
-		"id": 21
-	  }
-	],
-	"usuarios": [
-	  {
-		"email": "jhxsantos@email.com",
-		"senha": "12345",
-		"nome": "José Henrique",
-		"tipo": "admin",
-		"id": 1
-	  },
-	  {
-		"email": "elisa@email.com",
-		"senha": "12345",
-		"nome": "Maria Elisa",
-		"tipo": "cliente",
-		"id": 2
-	  }
-	],
-	"categorias": [
-	  {
-		"categoria": "consoles",
-		"nomeCategoria": "Consoles",
-		"id": 1
-	  },
-	  {
-		"categoria": "diversos",
-		"nomeCategoria": "Diversos",
-		"id": 2
-	  },
-	  {
-		"categoria": "starwars",
-		"nomeCategoria": "Star Wars",
-		"id": 3
-	  },
-	  {
-		"categoria": "funkopop",
-		"nomeCategoria": "Funko Pop",
-		"id": 4
-	  },
-	  {
-		"categoria": "canecas",
-		"nomeCategoria": "Canecas",
-		"id": 4
-	  }
-	]
-  }
+  "produtos": [
+    {
+      "nome": "Fantasia Pikachu",
+      "preco": 975.5,
+      "descricao": "Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi Tajiri.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuAQMAAACspRX2AAAABlBMVEVCMyTTpUFzQlpUAAAE4UlEQVR42q3Vz28bRRQH8LdrWzYuwo4Vq/yM3agSJRzCBYkDyEsUCcscaqpdfAwHTqlQcgKpIO1QOBQ4kFb0CHGlVEq2ilqQCiJV6hzyB/RACCKCugfUChScSDUpie3hzc6Md7w7KIf2HSLNx988eeftjCGoEqX+nzW+zF5YuCC4HnDRDNK05wo2DAgYS3BQBcGELx8uTR5h2tRz8n+YaDmjf5wY+9gMuClYpF3BO3xpsHQKgIp6oKYD7gS9sQzJvQE+QmVxTrJvlINYn4naO4mgmQPyroYzlJJS8DzKvs4WwhxH7t3KhDjt4ZZ03rkqWEbBRn4AJ+WmBGkXl8+HeMj2OSNYNkmP+ZxUtxAMSNhAWTpgwtKpIlKI+cwKYX7C3zAXlwV1DsNip1Qm/LUyMmxZkizLZEHiqmkDHz4xj+sDGknj/6szJsIHOKiHSh/CBT0/5eI6yV3hJ6coveNEOUHpuhlp8kqM0vOO67vKQOmk2YikDUqH7CmeJir3LGNKTRPBObvU5zxAlXPHMk72uYynj3M3a49LNmwcDf+CHdP8Uk7HXOTNX0Wey45LTmPatDnDp/00YDqO6WdjrOe4+mqaYwAjb9BeypxXGb7C/b6L6VSh/35nMV3B8+eKe1o9DbFmZh7ZdAdO2ouPZ5PbbK2yAUf3T7B53Rvih1synMnFcN2NiRtCPD3Yy58c9Acf7HY5d6eFEp7wsUp9/6rQfQiqWC1d17w96Xp+KpomJsnIdBuUqsZk+i+V87Xtnucx3iaQFmgVsGeDp/9ZAxdJXpl7PmL6J1ISPE+DOni9WBDsKvx3swyiqFr1U0HroNrN4XjASjohODmYhgl5v6p1zRjRcHtWppOhdIrzM2yQUruzpki/xnZf8v61BNfUc4yDdKLK1NwZ4SDT8xbjIztH/RGIjd2d/dr2082nr+DyruD1b6c/FqNx3C6VLwR8NDfGMFE0094V2pLvww8TfGjkhbfe3qD73DtwZsP20+xHYIn+URBMpxd5GoqOQ+/HBLuNPT99HBJjl2jHuc17y0N1FuDim5Qa423m8AGeHnGQR/FYzk194R+GFt1lbLAtwMaXh2uMm22X+um5Y4Qx4bfMv/KHcZKn74Gf7q5/NsbT/oB6JM93ZetdcXJ8phsTMz5bQxP8AHK2RPos8Kpz9i7L2zHrsymahK7YdNF/VZYcniaCi5BlvFGT6ZTPOYhncVf/XOZzkFyGqoWMDz1wxY4CsHRvU6RJHHi9xK6jg4ZIB8U4euaLAavpqj5NtGksV5e2kA9Jd1QOwjt6buqZSMoOsJIlhoZTOGbN184ayLomKhOFY4dyU887ev5Fz/cVTgb8q8qHpnt69lR2g2tG4cRv+vRMTbYeSN/oatPvyXRXTZveiuDbttrEqTW0aa/FuTWpsFHxGq7P7e9AqYuO87vf4+aCyhNLtQ+3kN/fqKp8Pu79fJO2WlunLVDrlLN8em91ddpbVNUin3vfr860PG8wHc953ubKiufVYaAmPe/H2uaCA4NlQCXtrXjnrEGOV3KXHAdGSThdjudt7xyEyzQqdTDDik2H8uUsROPHrShidyNd1H0Q1yGkiimNmsXHRuORxpAlFmgrX40QQdWkCc7Zjjo+9/UbcxHG4DfblXqYq2BaL9M1iBa+b7fCdgIMVx7W/wB1NiRCXDq+GwAAAABJRU5ErkJggg==",
+      "id": 1
+    },
+    {
+      "nome": "Nintendo 8bits (nintendinho)",
+      "preco": 3500.25,
+      "descricao": "O Nintendo Entertainment System (abreviado como NES; popularmente chamado de Nintendinho no Brasil) é um console de videogame de 8 bits lançado pela Nintendo na América do Norte, Europa, Ásia, Austrália e Brasil.",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,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",
+      "id": 2
+    },
+    {
+      "nome": "Capacetes Star Wars de lego",
+      "preco": 102,
+      "descricao": "Preste homenagem ao Dark Lord do Sith com este modelo colecionável LEGO® Star Wars™ Capacete de Darth Vader (75304). Mergulhe no complexo processo de construção e reviva cenas da saga clássica de Star Wars enquanto recria a icônica forma e detalhes sinistros do capacete em estilo LEGO. O Capacete de Darth Vader tem um tamanho compacto e um suporte para exposição com placa de identificação para completar uma peça central notória que vai melhorar a decoração de sua casa ou lugar de trabalho.",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,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",
+      "id": 3
+    },
+    {
+      "nome": "Estátua Mestre Yoda (20cm)",
+      "preco": 900,
+      "descricao": "Yoda é um personagem fictício no universo de Star Wars, criado por George Lucas. Ele aparece em seis filmes da saga. Frank Oz, célebre criador dos Muppets, é o responsável pela sua voz. Possui apenas 76 centímetros, mas foi um sábio Mestre Jedi que liderou o Conselho Jedi por anos.",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,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",
+      "id": 4
+    },
+    {
+      "nome": "Caneca storm trooper",
+      "preco": 65.2,
+      "descricao": "Com um design 3D exclusivo, a caneca apresenta uma réplica em miniatura do icônico soldado imperial Stormtrooper, um dos personagens mais emblemáticos da saga.",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,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",
+      "id": 5
+    },
+    {
+      "nome": "Game Boy",
+      "preco": 900.99,
+      "descricao": "O Game Boy é um console portátil desenvolvido pela Nintendo, lançado em 21 de abril de 1989 no Japão, em 31 de julho de 1989 na América do Norte e em 28 de setembro de 1990 na Europa, é o primeiro console da linha Game Boy, foi criado por Gunpei Yokoi e pela Nintendo Research & Development 1, versões redesenhadas do console foram lançadas em 1996 e em 1998, o Game Boy Pocket e o Game Boy Light (somente para o Japão).",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,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",
+      "id": 7
+    },
+    {
+      "nome": "X-Box 360",
+      "preco": 4200.15,
+      "descricao": "Xbox é uma marca de consoles de jogos eletrônicos criada e patenteada pela Microsoft. O nome Xbox é incluído em uma série de consoles desenvolvidos pela Microsoft, desde a sexta geração até a nona geração, bem como o serviço on-line Xbox Live e Xbox Game Pass. A marca foi introduzida pela primeira vez em 15 de novembro de 2001, nos Estados Unidos, com o lançamento do console Xbox.",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuAgMAAADrBW8mAAAACVBMVEUCdAMBrwEeKyRpO2/0AAAFeElEQVR42q2Z3WojORCF5dALYa5a0Lo3vlrmKexBBctc7YHSOwzzFCHsgpnHCOwS/JR7VD1OW7GjarMjx5A4pz8+Val/3B1iHRNQVoww5iwTJuEmMnWjihAtBbW/ZdKPohOkhJwzGBfNELENbmalvgOFycN0zqDnbNOTJApuU+EfDYaoIUxnLc4AfwJrISyDEDzrOhqYyV4WNSxRUhKK8+++R8iIDFrK807VGUbWkuA7M2dkvr2wTJm2k1XYDdfZze1LXlYCIsmwFaQ+OZdlqSUnnFlmQX17YJsggIXoTzCVRK4/bIIQuMHZmZ1LfEvxR+D81juz13Q+e7jkApwdXHKJqejSEJeclsXpkpeoF0Yu4Mu3No0kTY0dsqouYJcsZaV0AJyqNdWQjLXpUNcmVjsLZLVGXXKrJ5iSNlGHLGUq60ZohL2wYn08sGjucW4hsydrR4hl/QjLkc4fga1WN760u1kYjkaDdcK5ATthZlPTFcTUaUo7xpONH7vdYwjht/elu2zKnyF8Pl2Mv6/IF/B9CKdOuK6jRfLLu/A/bbg13vc17FpqIW/faTjkXrhdzH88dTVKW43HLpkrtCE7ziiy1llRmmo89TvYaARHY7os3XM3jNSQ+01h9o5qiOBCY9evxjvytheWJv3l0alGO8Gn/kLCJfnhHvIx3OH8sO2X7g4yCtqFdIfzc995ajW2v4ys5Q5yexD9unNWXUfD6+Cxq3FPuxWX8a/b4y9bSP/Lubs2mtMr6/x4j8bzeo2vL/2FlFqyUzpdTxbcQdbW+fX4y5pSFI1zN9xe1X07ehpyQT7temHcU41UGudTN4z63eMO54b80q+GXIh875OhPBHKSnJ7O+Hby++9cKQH0SvJqrUtaZVzFlHo4nxyyEI0fpJfdl3nKEWiTdMnQxEnKqeZ3F/8EmkBRdEV5IwpZ3IhRj71nQWSol00J9+53ihjQQAx8tHRYL7ElIrCI8dKpnW1Kfjeb3fmEMYx1a77ZINLyaJ0fvXDhGeWQ706z6Omqf29Hz789Mgg2XMeD0MFHxjPkE+dMBAOwziOFpWk5ZNLZv6w4SSRPOfNMDI7xGjpHjlJoAOz4/5g1e6RtYT9fgzjZojDmCV2JghQYxg2I19zVT4ky3zjN+yZDWMcCM+90qWJ1RjCPhxCCLUg8fOt8ARRNTLRfA/cJm+GfK2RZgO71xs2NRmqTcjjdVh0NlC+MmOM2xjYzRvOqkDNC1LNnAe7c0PDrKVAC0Izhs/XGkC1llTJmyZ9s3Rq0lfkcEU+H9i0wt2w5TC32wunIpYlXt80HrfPj9sbYYPOZ+zUko/HWxrpvJTenJ+IvkWGJdN5t9r/TJvKLfIMruyl28/bp+fHqzBTegbXPSW8TfKGhjFtzHvKaMntdscJnq7a3e6Dh5AvyM5RdIjBTB4ebpGbC8q64ofNx+RYJmAh5wMPHHP1jscfV+TIKkd7zDA/1onctZsl2pARZ6zkeo0Uc0YcrdS7985/1RvOUQokMV6/iCVkDrN+eE/O9RxWt7C9G3buQSSbBXm5ImeRDNuC5MSzFD8pZrJlv1symVpzVpQAJmPRXCRW6x/vyYhJJrFyT0Hy3HflD5vTTvH1NxiZFilJvdgWqb+kOmFO8XT6dwk/xZQpbedT0PnyaQfKfqn061MYDiUXGxNfWsnpfAsa9W8r3o76+RAx5ZKRIcn+p0HOj3TSzKjdiTEcpsyBiFSRjNfjqN1mobK52K12fduPpsw6wD61j2u7i7z9G+QnrcWJTJbzmGc/NZfEwjf4uaQYWfvrQfJ8pD7PWmZ3aL4RNlVtnnMCrFi6Tb5UtlH1WP2b5OZj7T0tCRlJVz98aUBeWKSL7XzF88LljvEfmaML5ES8tgMAAAAASUVORK5CYII=",
+      "id": 8
+    },
+    {
+      "nome": "Boneco Sonic (10cm)",
+      "preco": 25,
+      "descricao": "Sonic the Hedgehog é uma série de jogos e uma franquia multimídia japonesa criada pelo Sonic Team e produzida pela Sega. A franquia segue Sonic, cuja vida pacífica é sempre interrompida pelo antagonista principal da série, Dr. Eggman.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,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",
+      "id": 9
+    },
+    {
+      "nome": "Joysticks Nintendo Switch",
+      "preco": 320.99,
+      "descricao": "A linha Nintendo Switch é o lar de jogos exclusivos de séries como Super Smash Bros.™, The Legend of Zelda™, Mario Kart™ e muitos outros títulos.\n\nVocê também encontrará grandes jogos de outros desenvolvedores!",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,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",
+      "id": 10
+    },
+    {
+      "nome": "Joystick X-Box",
+      "preco": 420,
+      "descricao": "Tire proveito dos botões customizáveis, gatilhos, controles e capas de botões personalizáveis, além de botões posteriores e muito mais. Construído com foco no alto desempenho e na personalização, o controle também retém todos os recursos imersivos do controle sem fio DualSense.",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuAgMAAADrBW8mAAAACVBMVEXKx8OmoJofHhsH3dX1AAAHgElEQVR42u2ZzY7byhGFWUbJQLyqDkgB8SP4KbqB7iyyUgfkAONVNnORO28RINl7YV3AswswMiA+ZU51N0XxR6LuLotbGsgjzeHH06eLP01Xf9Qf9f9aUv2uourBElG0rR4o5urBWgK3tfzIEBkj0x/7cCDWlq3ul5TRPTxEkUTf4lIZnnWVbKtZ/T5owyY8cf7dbm0hwsoVKxvJ8aCHWcaL7uqZucwGJxubYEZVDsMk3holrEIHEdPdCbRWgFMbIAs2e6iRxHohDUVu6kUHL5g6rwbw8nLv+FQPrGRjxCjZ0d3Z42okO77t1DLDhU6gZ48fncR7Y4QLIvHYB2GEFd+WIStbKZkMyNB6K+6mFmMTdkCLvrFXsqxnIQwyeOLZsWTy2hDT2HWC2bJ3SmYSlzyvq43RDiaTyEa8Y/aYyHnf7frvKSKCyPTniNGJjk2/XGr7s3aw07Hs8cGJ925nGNY9zwb42vf9sTt1z88/fnQ96t0ZeIKVhYfqI6T9WMenvo+wbNgpedZLv/SHanf+8XLsUC9tJU/9KSjaOyXTBPx2qCqf8tDAkJX5CnRSK3ni5PP34erxtXzvmv4YktoAzRNxShnf0lObvvDG7L/HrHY8Jf9D39gSffz2z9LVAdHUXmsZR1ZXn779mnbCxjRdbNvkG6ZXz9yf/wZHWqFFLMGE5GMNzF4+fXnL5C/HAHUbk5MlmbUF/tT/lnaC7oA2hhCgliWYmAQtckofPvz2a6fkro5rZBJBGtS/p4Pgrz/7qGqfRjhHNwfHLGioQ3L08dyrNnZB82M/5fan2o8nV/5zFneh9QHkKfpTfw7eXNqcCAPM6qb1zvBE/KXv/2Muh7hoGjH7iCbWYue9fwQi9SLhY7uPFzJ88NRy3586wYSn6wP1/zXd6ympY4Pk3EIcJY+wlo9vJw8jOek2zqblQ9/jb0IdMtp1CO7sQ5/yaNqIbuKl2O06pGw6+vTzjOYv4XXwvCS3npoDV2Ykp6rbKH4mxgCt2+n8tXb/do6JnNnByGKArVSdRnHAticeyDGNcCn2kq5nRPR6bNrXyxw2RhaTEq/ail9P4VhsxBm5+oydep8ulnrCq0JOubANz05f753PB4tgIs3+fBG3ethWk0KelPolQRzOfbG5kGs/FVNtLcAs+rsx+5/9aKON80PFew5MpffD/q3vwjDAMLORLqr9t3yL2MT4d/TzSA5zMvG+f0fQgtDPTYMGrQfxggz1vj9XNiUDv1+7K3Lr52KzxzmD8yF2hLQxF7VZiHdKriTN5ik1xSW7Jdk/gWzx0nYFrY5jdAvxX94gYnhP4tgiuqGWabz2KA2jkH13ld2c3Gv9u7JF3DX+jo1E/jbYaH17Rfar5H8NYvgIYyetky1XKY2X1nf3yEnsqyHn6MMYh6yKK5tm8HRsQzOajmExg0/9+VBR6Y1Qx2a0cZiL+an0BrpO4wpXA1yQ+WPqDd1H1CzqewOscm+gGC7rkYxaitH8FSU5xNpHozYuxB/6dy6HoPZcMOE2GUBbVhzemwk51neWgCTeg9yM6rV7y7Im8czB1Fdks7rmEMvKd3AR4z3PxQYxC8NzaO6SrQxvjj3AV/O99MzE3jPp9cZH04xav7BhPBJj5ODYeA518vx8w/N4/oleaOiNl1XPu0vv6i5sMMbfTqP5JX/f1FEv7Hw9PiPznivgGOFafBXq257p+WUgByVbH8LNNHbHssfWo0A2phnIbWdmlp+He6JoRO8ROXoNY5XcZbJqDXtxQiCvn8xhuTQBtJKXdMbgixyRMVMXmdy0IYH1r6YeyHFGbn4UcgKnNQ+B/JQ8h1nOBVH7qGCbrrXB5DTamY3dU45I72kBZpuORJCTO8z+sjGCRzkWa9PBZTJ5cXNSwtfYxDFzTiiAjDIgLCwDq6segMt6OJNjO73foC6VGjbEsJwOR2ouZDu33CqYLcCWRco5D+Pzs3vRRrW56Q3AVJZDIcXZQHvJuXxbUrMooeJOIfUhTsllPtLSSM92kvPgvPiYrIFA4OQXoWGux0dBnEanS1m+Eh+cQYGLRgbZVnawAUbtmK49W/ZahL0bonyKTPbaPKXTprMkIoTUvMZw2amntHz0M7WHYZ8f2bBYpePHVV4n31Vuvq4SvFAVZ79JbYgxDpkvpZnw0hLIdaqpLGg1o8XzLKuvBJVhUrjCLyQYn1mu2bC5Wkyf0g8iMwL1yuMsgXRtqUoYD609TFS/Dn8s3zmkyZ6JZGGjIvV7/cSwPClbv/xktnCZGWZsr6PgpeeVZ7PpKICx1WKClclIEtnx2tVqDIbLInLrma7IZeOUvFDxvG68LCpshir9luvJPoiAZbEbjw0nfcObD9PTLElu7zvFSWp5gt0syo9RWW77vTiywBLe7wZd3uzs3mlrE+1XkQ3bdugNSZ1XbZb9Xf/bYFPUVht1I+cxY0z2Zkl2wrydhr3ahB95Tkwqs9Ojats78WNKnRDZtCxZm14PFHOiW4S9qR8nhh/S0izircMlnQC30yhtUZ4ob3gdjwDGvw+WdblLt+GS03tAy8waXNliu0jpW/M9P3n9DwIjvVCpBdB0AAAAAElFTkSuQmCC",
+      "id": 11
+    },
+    {
+      "nome": "Radiorrelógio cor de rosa",
+      "preco": 145.6,
+      "descricao": "Radiorrelógio ou radiodespertador é um relógio combinado com um rádio, em geral com as faixas de AM (amplitude modulada) e de FM (frequência modulada). O aparelho, assim, pode também utilizar o som do rádio para dar o alarme quando necessário.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuBAMAAABkRZqGAAAAGFBMVEUEsucBv/KBmcap2P7nXbx7W20cSJYiIS8ugAkBAAAHCUlEQVR42u2Xy5KjNhiFhRdZ0/MEPbLxbDN0niDBL+Cyhu2Uqwx7V4DXz39FaMDGbeRZpDjdTYuLPo6PfiFsflGa9HpL0rf07ZbgbPqWgKCLuSummZSEUOLyHiLgHnRCBU0l03ZaKd02VceChg2ZI+eyp8ILekFPJU/D9Vp1LPthAP0xsZDAh73FxRMp/nEYQhaHag+3/hiiJQqE33EsV/j4CANCAIuxeEd2rJ+JBzCdjIE2fugSJpM9RicEpX+pOh5y0+l4hagDzjEQMB3mGzqnu5FofCa5VBN4gXrV31QwHsnx6xnyLDU1TVYq9fOO2acc07SlhflTB45wOgvvWOaFDN3QrcC1ohOJHKlkbVwPWhDesQzatOi4TwL/kH6jkOXzKBnHT7uKS5ZWB9qmkzRJ+NNOOzb9s0ftaJGFCu8ihcHc26MHF0kxcMXdUUI/nB2HHGSh00LrmFLoHd2FJ/0l7Efm3nTAVBPsWMrsDlWufKNLsZ5GWH7qIRQk2Ael3IQoI8eJJiHjDNf7SaKAUMGkIUe/YilhffhoABTzvGRR4dKg4Q/FxYLSwUtmhy58GKnjkOwdy9JGWcxCfen4Yg7ssmPhvoljCW9G+qSjjMfPZDqkD2IpItWs76CYw7rQtQ7LzC/IOpnnlapn2I6LbeiYE5nXIGItueHoJX6t04IP+80Ki1+jCB0zGc4pXGw8Ku9YCkMfFCKGEvVxbCqmmRxmzGx9LxMLjwuIwQuX58rMgFN82Se5aoTftgYavrTKy8kT4if+MORgCU2fxLLrcFLrZCbq81z6yKzBK7xwgf9MwH4Mh459sT1tNnAMdJ+EFDiv9k/j2bFilcy1+HwO0JPRpg85RkEwOQxZp4cM3SLTgCD1g8cLx+fn8jjh4UKCe/IQeR4rIpLxGRNzgdseG2TRr8zJkiT6Ny4w7B3D7hLiKAtGJ/pOtWBuiHg91oqDZgSmKBVxFMurQRUsqTxyi2pYJYs1pKtVAQeWPIuHX0gEjRkvLbNbDwxsxPAr4kkijuNhwbJyTcxq44Sl4OLly+ozXvyAH0I1Y0THwypc1tOFq/NkxRF62cIxxlIWOKujPTI9GwTk2EFADlJu0SVfc+AeMU3z6ongSE9ML3kNiF7HIK7kiA8glnyZiV0VlCpmYfguxsSLOUnIMbXNx0ceiZxSMavjLztrI4F1WvOU3tg8GjiVSU3tTb6NBkYy17GxNnPOWdQ7yBjz7EsMGGWl4HizK0b6W7Szk8rtrIC9K16gnQXwCVREl0mL18iY4lP6p3hQ5ku4HwmrjiHl2EmT425WZUOCFvyV8FuWDg+4kUrcnMRx2UVWA+ANOo6tBqN4Ffhlji+vyrh5lePfD66quq2qyW4tVvYc2PXgtpP/Z9ruq/21OtfdL6rhOpgZLZAbYjTwNwU+Cdifbi1ur3W7P9dtANabz0vBLIFcN9ho6m5/7tpvU/Nb1XT4C/vwn04MwTsF1+rGnsXdft+1Ve910vI4hjG4uSrPcuNcV+AbP0jdA2kXxW4xX0KXdMTrRFEcwhjrirn7zsLORLrEFJUyds1tx6pzZ2s23E1lXCq96RNXbOh41zu+CPhssXXdt+25vtRhJXIQjfBKfExLGHqncVVo7/3e7hFsrW2pBbA7Ytw9x16WbnOpfnRoOMTcu8v9was0E1U7sNwO/TeS9YNg191Sy/cIj913PHNxScfa4JK6tz2fcdithTjLVnv7LR6uoXpbKbx5cKjPF0IE8AP691VgcFwAOPpiio4L0NHR21IJ4gcKNOS5OxgibuIhEF7tJnRypALAL5J56pvCX8WMXum4OICKg4M/aIqKgjbFCQ6CDvgCjdvD4TRQQR1coIbUNc4Upx/LioJJ5UCudAg+ZGXjSEenwpH3O9hb2l2pTe0yoSbLrtYUztVyHv9lDsuNeSIHR4FH1YbX9HPa2aOll33Yl6WhpHPH4/UIjl15dMfjEexnsM06BwegS6nWsMM38WIza9G4J7neRIOdOjzrsiYz1HBZBv/QMfBL2GY2w6Bwp7lCB6dga7MeTLeXE/QBMutKvAsGYOBCOplRFnCIjFIXlYLVsQjAvCOmr7rbIMxsLgz2gsgcuQWB5bKBlp5yA8GJobrwtLGQcfc5cX9unrxjOlMS/XTgmceTo1AdsFsDM8DhHCBvfJKacIwlX+hUOFdOv2VKv0greAVHWvNgLRG5g3N+FfnhLhd4+61A1oCqqga1XVV3C9Xytq0qg/qjqtq2q+H3tqq2ru6pxV+vn0Su4ukPECI3xnx9xwYd+Gnwj/UO595ZX1Hvf37/nuf5x/bjQZmPF2kFr+BQ+avAL3O8glfwCl7BqhXcawX3WsG9VnCvFdzr/wLebrc5y8AXrAginM23XibvBbcbKqc3aNb03XPV1uYj/Qd5HJvoRYUKqAAAAABJRU5ErkJggg==",
+      "id": 13
+    },
+    {
+      "nome": "Boneco Grogu (baby Yoda)",
+      "preco": 210.5,
+      "descricao": "Grogu, inicialmente chamado de A criança,[1][2] popularmente conhecido como Baby Yoda, é um personagem fictício do universo da franquia de ficção científica Star Wars, que apareceu pela primeira vez na série The Mandalorian, do serviço de exibição de vídeos on-line (streaming) Disney Plus; Um membro infantil da espécie do personagem Yoda e Yaddle, com quem compartilha uma forte habilidade de controle da Força. ",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,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",
+      "id": 14
+    },
+    {
+      "nome": "Playstation 5",
+      "preco": 5000,
+      "descricao": "O PlayStation 5 (oficialmente abreviado como PS5) é um console de jogos eletrônicos de nona geração, desenvolvido pela Sony Interactive Entertainment. Foi anunciado em outubro de 2018[6] e confirmado em outubro de 2019[7] como o quinto da série PlayStation e sucessor do PlayStation 4. O console foi lançado em 12 de novembro de 2020 na América do Norte, Austrália, Coreia do Sul, Japão, Nova Zelândia e Singapura. E em 11 de dezembro de 2020 foi lançado nas Filipinas.",
+      "categoria": "consoles",
+      "imagem": "data:image/png;base64,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",
+      "id": 15
+    },
+    {
+      "nome": "Boneco Kylo Ren",
+      "preco": 137.99,
+      "descricao": "Ben Solo, que mais tarde assumiu o nome de Kylo Ren,[2][3] é um personagem do universo de Star Wars, servindo como o principal antagonista (ao lado de Palpatine) da terceira trilogia. Ele é filho da Princesa Leia com Han Solo e possui uma relação complicada com a protagonista Rey, a neta do Imperador, sendo ela sua principal rival, ao mesmo tempo em que eles progressivamente começam a se apaixonar um pelo outro.",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,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",
+      "id": 16
+    },
+    {
+      "nome": "Boneco storm trooper (25cm)",
+      "preco": 370.99,
+      "descricao": "Os Stormtroopers são a tropa de base do Império Galáctico no universo Star Wars.\n\nDevido à extensão do Império existem variações para diferentes terrenos e situações. Os Sandtroopers para os terrenos desérticos, Snowtroopers para terrenos congelados, Scouttroper para reconhecimento e pilotagem de Speeders entre muitos outros.",
+      "categoria": "starwars",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuAQMAAACspRX2AAAABlBMVEU2EQ/LtqSMeeR1AAAEf0lEQVR42u3XT2zbZBgG8Md2PWftqLuqXYGiOUMcRoZEj2HKarMTg8OyKqkQmrbBsUXThASKaFW7Qpw4bEggbrTqJrQGaHtgiAtNTghxWYVWjiRwmZiEmk5seNTxi+2uie3vRWL3fSf3p0efv7+vGzxu/9Ukcjg2yOXYJp/tg7helICbImsBt0TWibh3GgF7IpsB+9z4gsYxO8J75YDrAt9ZtRmWvhnk5iP92FfjuCjbzDQlS1rlGBhhWA6Hzm+ExjOIZ4NnpcXgLMCxD4ylrQeSDQyAP1ViWrbr/Blsip1kIFOL79vFJS7tocWlfQiTH7BkIobrElFd4LELkk3NisAb0KkljKTihpuTT7O7AoXjmfnfyD2eHrR3UXfFtOQXTN92CwLnbTLdgpNikogWmnPZ9K38gOhmU7hTdHOHbs+TJV5t2lb8pOp1m3bI1dulZM8u0RZ5RjLdT75NLQpaMc4z1XWbHDt1jaWVzU2TVIPIuxZj9d3J9ZHW0dNEDxIX5Ovy5rxz8irR3fhIeqvVGuQbZd/+M54eniiX6+qr1Xbjp+W4X/v04vzERNleuJFI41R5ahm9C/R+Ne6nBicdQF71fSdxg6X94dKdIarGPAM8F/75wmotdfLlMK1M0p1FiK1NRAxLfEFV+Mqp8ZVTJ5N8hn2Te6fhmVzlNHm2PYOpnD22yzEoYHE++3lWyNWZEqkJ3LSiSbpagqXD7iJgBJxcK+3jHGAKLCvfboSlV0qX3763ESb1FOONgxRSfMFlKRx2xGZiH04CVyM2YiwVzwD9jYAzeiL9yXX5tTBtX+5yL/CH7HwepCW63eUstLul3ChtuQrt+J1xfASt9qyzXiNPo3aHM5OQG7dy01tbAfsdPtIPlbbhN8hTicY7e1gC/Lz65Wf3gjT9uscvAygAvk7eKNEPezx0HcgDstqeHSH6vTOS0u7H4sCMF//clb54+I4T50ZjLJ+zdq/QuJ9If7h3BleOxdPFKI1Zc24otpfP9zw8PeZXgzGWLStix/BGYpwZyEaHAqN/9cbTDsJ4D0ZdpcuBP4moHXCHG12ujx9G1J6q9K12D0SzcCjsI0h/py50efsKFOAs8NJYxuzyP7ufgSBtydRlP3yp7ALvXNFjHD4cCtOvWETkx3lq3of0s5nmXJBWGhRnN1xceKp+Ps3SEGY1qoX8Xoy1LApPnI54rjPLgDPI71MobDudNYnS+bPa+QQ7wL4B5Cta2Em3tO9+9PMtbYHEGlZZe5HllnGZYXdN10isjw/GTmhiWnKLpsKlnSmukwqOK3Sf6PUk53FUo++r1Y0kB/NU/F/+vp9mralNT5cyiwKr7dLSUjZd76BNLAFOB/Ye5VvgmprFI7YeQfr54DM8XwKYd/Y5wFsiPx2kmaa1WDZZfpNaj/ALJsenR6prbLqxIaKE4TA9IHBu8wKzA06uuiim9zvHyhaQTfmReq5qIf2vdqavXp4MH1L9Z5vDpWjNk3wwSov7YA0uOwwXyyUu7fQuiVwMRyOyWt8b0f86I0NGuKzxRfkXN6KZmACmTpYAAAAASUVORK5CYII=",
+      "id": 18
+    },
+    {
+      "nome": "Bandeira Atari",
+      "preco": 88.99,
+      "descricao": "Atari, Inc. foi uma empresa de produtos eletrônicos, e uma das principais responsáveis pela popularização dos vídeo games. Foi fundada em 27 de junho de 1972 por Nolan Bushnell e Ted Dabney e no mesmo ano começou a produzir em massa máquinas que reproduziam o jogo Pong.\n\nEm 1976, a empresa foi adquirida pela Warner Communications, e após a crise de 1984, a empresa foi encerrada, se tornando duas.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,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",
+      "id": 19
+    },
+    {
+      "nome": "Camiseta Nintendo 8bits",
+      "preco": 36.52,
+      "descricao": "O Nintendo Entertainment System (abreviado como NES; popularmente chamado de Nintendinho no Brasil) é um console de videogame de 8 bits lançado pela Nintendo na América do Norte, Europa, Ásia, Austrália e Brasil.\n\nOriginalmente lançado no Japão em 1983 com o nome de Nintendo Family Computer, Family Computer, ou apenas Famicom, o sistema foi redesenhado e recebeu o novo nome para ser lançado no mercado americano em 1985. O NES/Famicom foi o videogame de maior sucesso comercial na sua época.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAACuAQMAAACspRX2AAAABlBMVEV0Z18iHBakwjgzAAAH/0lEQVR42qWUXWwbWRXHz0zsJnUQSbNxi1REDLRSk6oq+4ZQGw+hgSYV1Jt6Eqne1hFILE3JZh/IFm2b3EnUVVcrIZaKqNK+1EWNcMckBok0sFEyRuJl4YGAmho1Su2lSESJ8lEa1/nwzOHcmfGMk/qNK43H8/PP/3PumbEB4C6m4LYsH1lDlBdFEN6sJaiqXaiqbW1nH1xCbI97wPObQBVx8aShCPUjR/3X0PhFiK7/EOB2PKHL4V+FIbCKeCYOsP9GN7e9/g4Q6z/yjTCGAtm+RSDcFG+6r8bJPtrFUKLv+9clqim1tjaCWPUBHBjQDGUEoLqbY39t1Zmms1TcM4mohAjMKoRb2kcPAEAtiD1JXZDIDkE3QGOglt5TlaqpvKEAwL6UQhVE3zDQ+gKI/Veuc+FwALIAcfrItOFjbR/QOjgEFrJs6O/5JwB4LoKYqi3iz4H48Z1xoCWDV5JK7BNyD990DwiKE/JF0qrH+OTCsE8ptb8+8ROgSYVhv6KU2D/7Nre9HeAfckK+AXDsj9wWwlAhlmYfPMhtXwxe8zj4FKWe/T0PCcMhF18m7+AJAPBLcLiqNLvuQ5U6aPoIml9zcDNt+432GH0YEL7kd/CPAYTWphCA+oHQ3Flqw/B9hW52QAh+z8Hv0tF2gAY8KsGpZgdn6FA6ACAOQvDyLhs8CnhuK8J0wcHIhxeiIw4w42Chz7QBQq0A05sOHrBn6Q1R9u4Qvvb7ALR1KF5FbTtGNvupY+9Y2OOXyF50cNFuqyXbCQGWMk+ih2ycdfBJC8Mb9WRn3c1b2OfLltoeyxalSQABHVvKW7b3R0C25HayYdrqEsex4m7qrplNTQshjlOOHdnmdz0mdAOksNuGZ24ndQoeqhckYNmiLdYKsvm7CUGCYcooZnvDS1ReHFa6ENGxz4YEGXUQBIYmztohXvlfiIVKRAtbIUJV/MNpZrHSkBbv0e9rLuajEmkz9XF1A0uwFTLc0i6rrr1u2go01o/I72VKMA22KnBkuF1NqCcd/F/TvjncGFbVK+ddHNwEqA8EbrarY7885GItBbTj9xtlufPBuRJ7EaDx2LERWZ7scO11pNl7W97vUBO9c990cXADoO5YR3vi3fkjrv2cbQO0th5R1UTfp1KR/vw5WwHwh0bkyMCTWLHvzcqtKNltR5vUh4+1sXkbf3ZrK2iQ3THaFelbe9llz+kH/9ni2aPt8sWVT6bUpEmNGz/8ta7pZMvy1cja2qKf00fMeOuFzl4qoKrq49VprSNBKlQ3G2+ndQ1nye6cup7ue0R96wUNse8ZMpRgVB3rHZ/G+BhPDmr41jOy10HufDjfnx78x3GydYb4eoVpn7si9yY1jN8huXAoOPi1Gh3xt6COzz/MrRmxCCK2zmmnXqczlZSXJq5GGc6Zo2IIjJ8XYXzi4kwe9cAYmktDDFr23DIi/qUrVxw3xW3A+MNxDcnWbGpAnof0r1znF58et+2sEMHMBiQj5oPzleSOFQFiF65twkCe114IR3mFxBKA8GX82zakdURUZ4a68qQ/AgBPAtc2gFGGgfmwtmLwqgqI5iznEXWc0NXkMmYsXUbcBjLW+nAnrOUxR1Vi4JtmZD/FXg2N+yNsHrcT5Ej+JUQdrq+YQ2hKrhLy0r6PXqYakNEieTSGZbaDuiz04GzlMi/5Xo6PJ+7VzHmeSBTMHyektV6qrBxEzONLEFVc1DgezPHGagV+URBhIoprPCSdZAwLUM0IG0LMl0DaLc1kIIOEwbo3IWifZHxg6TRy7EO+4AbUtpOmwMDgpGlrSKFKTQqqKSwGGctuMu9jqmFbHOcjgZ0BrWjT36UXt+nLOYBkJo9oiD7eVUMWzB9FCsAgioYCGuGKaRA5jgFMGuat9DOedG1OrjEjATMZ1PFPLdyGGlzJU9eErafpnmpKFVb33J5Gspe3TRvsZID5NXPbBh8EQBB1MBchxDTqhGt5eMrGeY2KcDsbAhA2wForGaRwPs3ZILjLRM+RVgJTLtY42bIf7SIUgaJzlk1Fi9hLJS1kBGlDReyHDJKtE6qgQ7LxSUDkXRAq1KBTswvM9syXVBCLFTXIk21hQyjaPgRezcKYtfcjyITtVSDMLNtz3LI1/kLYzq7TXBv1is/sbG+XhaPW1isMy5aZhe0/u1t2SJMdcs/CdwvFRixcZaXkN+092jhUZ+lZq+KUjR/st7DdSJ+N1W/tMDrZFQ+hjfVL/+bY7u9EEePVCvfmCOhgQ3VvZaWL56JuRebiZdR4f04GYXcpIFFGKc5YmGJq9to6VBBu2IuNUGW2DN6EBsoO7sUFOP0OAHvFFpYoG1/Jrmx9Bw7gKyHswiZUONjVb0aVr+7GO/yBvmDA+d345fwmW1VxqGE3Xh78XRSTM0JwN156MFuN2+zPbA+e7xYxl9zC3XhODjWigc9wjz3SLfDnba8djtlvd+PvSpVl8N87y9p/HUsdL4NTj1Pl7JEFaagMvpeRGsplL9wSyuDk09lcGZzBz9eUwYi5F2Ux4v+J9bfL4c1zGY29go3RgeU8or7XPr+qmf/Lu7F++lL/IN/pbpxLL2cW+FlGjLr4ceLyZB9jaGjMmLnr4MO9E+nMMmJE7sMsK+J+/clKv5HQdVSTqDdpNl7uWZroyTHGluZkfJHptHHCmLqoyStpXeuJPN1ZGo1yTO3JnWMrd/I7+dWJ1sHxT0Z6TLwdiSYvdO48URe0N+syp+dC97+D+D+h98SZj06bPQAAAABJRU5ErkJggg==",
+      "id": 20
+    },
+    {
+      "nome": "Óculos de realidade virtual (VR)",
+      "preco": 7200.99,
+      "descricao": "Realidade virtual é uma tecnologia de interface capaz de enganar os sentidos de um usuário por meio de um ambiente virtual criado a partir de um sistema computacional. Ao induzir efeitos visuais, sonoros e até táteis, a realidade virtual permite a imersão completa em um ambiente simulado, com ou sem interação do usuário. Atualmente, a realidade virtual tem como base displays estereoscópicos, como óculos e headsets.",
+      "categoria": "diversos",
+      "imagem": "data:image/png;base64,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",
+      "id": 21
+    },
+    {
+      "nome": "Funko Pop Harry Potter",
+      "preco": 110.2,
+      "descricao": "Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling. A série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de Hogwarts.",
+      "categoria": "funkopop",
+      "imagem": "data:image/png;base64,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",
+      "id": 23
+    },
+    {
+      "nome": "Funko Pop John Wick",
+      "preco": 1470.2,
+      "descricao": "John Wick é uma franquia de mídia de suspense e ação neo-noir americana criada pelo roteirista Derek Kolstad e estrelada por Keanu Reeves como John Wick, um ex-assassino que é forçado a voltar ao submundo do crime que havia abandonado.",
+      "categoria": "funkopop",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAsRXhpZgAASUkqAAgAAAABADwBAgAJAAAAGgAAAAAAAABpbWFnZXJ5NAAA/9sAQwByT1ZkVkdyZF1kgXlyiKv/uqudnav/+v/P/////////////////////////////////////////////////////9sAQwF5gYGrlqv/urr//////////////////////////////////////////////////////////////////////////8AAEQgA/QD/AwEiAAIRAQMRAf/EABgAAQADAQAAAAAAAAAAAAAAAAABAgME/8QALhABAQACAQIEBgEEAgMAAAAAAAECEQMhMRJBUXEEEyIyYYGRFEJSoSMzQ7Hw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMuTHHvVLz+mINhz3ny/ER87P1gOkc3zs/X/RObKXr1gOkc/zsvSHz8vwDoHP8/L8Hz8vSA6BjOeec/hpjnjl2uwWAAAAAAAAAAAAAAAAABFup1c/Jy3Lpj0i3Pn18M/bEAJjll2hlJjdZW2/gUE4zHK9svdp8nH1qGMkXs1vFfK792eUs6Waqho/accbl9s/a84vW39AzOjX5WP8A9VLhZ/bv2qGK6JuXcvVaYTKbxyquWNx7/wAg6OLl8X05d/8A21cW/wCXVx5ePCXz81RcAAAAAAAAAAAAAAFc7rC38A5cru2+dTx4761nO7oxmoipjLKeLk3e29NVcNXDxXytqKYY7x1PLJqywyknn9V6RoCUXGXvNgBJJNSaSgBKuV8ONvolGU8WNgMPDcMpdyWtb2Z8txuV3uWdF8fsnXfRRnljr2afD5fVZ6q59leK65cfcR2AKgAAAAAAAAAAAAy+IuuPXq1c/wAR1sk9Ngy45vKNoy453v6aWW+eoirKck8PFqdkXDGTdtn7V3j5Z0VphrxZX2aMpM51ll3/ALaIJEAJEAJEXeundnfFJvLLQi+WMymrGV6XGYXp1RvC986tOOSdLfdROTKdM57tesnW7ZXpmDuES7kqVQAAAAAAAAAAAAYcl3nW7mt3nl7oIw+1eKY/bF4isOTLxZfiGN6K5SzKyolaRtx5az8PlWzm4pbyT8OlKsAV8Vuep2neoqwADC5eLK2/pu5OstnosSpy7r8WXXwsqvwy3LfoqNazyn1RpVL90RXTxXeEXZcF3jZ6VqqAAAAAAAAAAAADjyuuTL3djj5Zrky9wT/46vj9s9mcul8bNIpnhM+/f1UnDf8AL/S838y9br0M5u4zegWwxmM1FlfFJ5pll7IqM8vDjudyTwyTzVyzk6d1Llcu917KjaXoljjncfz7tMc5l7gspnxzLr2qblJ3JlL2qDG8Un3ZSL4WdsZdeqbhjvek2qIrPK6q9ynqzvUG3w3fL9Ohz/DT7r+nQqAAAAAAAAAAAADn+J/tvu6GfJx/M1u9qDlvb8xG1+aeDlv56qWb6wDadqgLbWxt8M169WezYqyfD+VcctGV3UFpj6Un05xGOWoi3d2C/JesV2rbsUTs2gENrXtEfb7tuLj8fFfLd6UG/H9mPssiTUk9EgAAAAAAAAAAAAAApnx45/dGd+Gm/pysbgOf5F9Zf0X4af5OhGVmONt8gcmfDMPuzkZ2Ty6r5W5ZW3vVdAid02a79E6acmP0y+YMvD02hv4Z8vc7aZaBGMl75a/TXH4e5Tfjmvwy014M/Dl4b2oLz4aTvVvkYa82oDKfD8c8r/LSTUSAAAAAAAAAAAAAAAAAAAMOfPr4Z+216OLLpb7gm9IhFpAXnaxpn1wwYxe36MQWn/TlPRTJO+lnqpQEqrYg6+PLxYSrMPh7q3H9twAAAAAAAAAAAAAAAAAAAAZ8t+mRz3Hd3b/p1Z4+LHp3c9ykvhtu+2kVHHh4+Xr2ndTKazs/Lrwx8OEmtXzcuU1ld+qoiLXpMfZETvc63sCEJ8U1JOuwF+DGZXKX0UxX+Hv/AC/pWzXJlPyC2F1yx1OO95p2AAAAAAAAAAAAAAAAAAAAAI1PSJARbqWuO9a7Mp4sbPVxgmI3rsncVoJ3uwRE2wE8d8PJjW+XTO2dOjDjx8ecnZ05473bemgU/ux3bWznnXLH3dCRaAKgAAAAAAAAAAAAAAAAAAAA4vN2XpjXGBTCeLOQrT4abzyvpAZRJlPDnlPSkBfi6cuLoyxmWOq5sOnJj7usGeHHMbvvWgAAAAAAAAAAAAAAAAAAAAAAAryXXHl7OR0811x1zeKeoFb/AA0+i38ueun4ea4p+QY83/bkrF+ea5feKQE9rL6V2OLKzXd08WcywnXr2BoAAAAAAAAAAAAAAAAAAAAAACLNyz1Bhy8sssnZzN78Pn5WUnw2frjAU4cJllquzHGY4yTtGXFw+C7t22BzfFTXhvm59135Y45fdJVfkcf+MBxd0y2Xfo6v6bj/ADP2f02HrkDPD4iy/XHTLubjL+mx9cmuOMxxknaAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q==",
+      "id": 24
+    },
+    {
+      "nome": "Funko Pop Tigre Tony (Sucrilhos)",
+      "preco": 89.99,
+      "descricao": "O Tigre Tony é um tigre fictício mascote da marca de cereais Sucrilhos Kellogg’s. Ele é bastante conhecido por aparecer estampados nas caixas de cereal dos Sucrilhos além de aparecer bastante nos comerciais como um personagem de animação",
+      "categoria": "funkopop",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAsRXhpZgAASUkqAAgAAAABADwBAgAJAAAAGgAAAAAAAABpbWFnZXJ5NAAA/9sAQwD/t8jpyKf/6dnp/////////////////////////////////////////////////////////////////////////9sAQwH//////////////////////////////////////////////////////////////////////////////////////8AAEQgA/wD/AwEiAAIRAQMRAf/EABcAAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAsEAEBAAEDAwIFBAMBAQAAAAAAARECITFBUWEScTKBobHwIpHB4ULR8QMT/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBITH/2gAMAwEAAhEDEQA/AOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQBMmYCiZhkFE9SeoGhMqAAAAACXaAomDTeZ2oKDOf03PMzkGhNPww1XE+gKJj8yT7AoAAAJTCa+PmmnVn3BReQEAxfIAn6jFBRLpvhZMf8AwKAhlcAGYqGQUABLMxQGc9+fzhMyare/3avDFxp67+Of6Br1xm72+Ys1S7b/MTVwmqSYLZbPG9LZp26+Elmrr+/P7/wAVUaysmIaePuoAAAAM6+Pmxit6+GZwC6dXStOc+Ke7erj8z8gX1TuZZxibQ/fzhKL6p+VPXOxxP9pznHWqL6/Ceq1Jzuu07Khk37r0s8b5+5/3/U8IqXbrSbTP7M8tTeY6xRctSYjOMdWpcxBQABLcM3UC27yOer4r7tTVM9at0y8zAMV06syTTfK53Bi83PdOrdxq5WaZN+QWX9WO7TFs8wmoGxJcqAADOvhmcNa+GJjqB/lPk6Xp7uec6p8m9Xw0EvFnXO33LntM+6S+q/m64nf6AS/bbr8yd9u3uXE6/n3Z9eOJ+4LjFmTe42vz4/vCeu+P2PVe/wBgbxet/b+z0zrm+9Yze9TIOmNPgmOmHNvRxQaA6goAOeu7pJnnaLZnU1jYCYk2NXCw5BgT0+m/yKirpZx6uG5MTBoXF8sXT2bJEVjRf1OrnjGqXy6AAAzr4+bGNm9fHzYUJzPdvV8NYnPzb1fDRGOG9Hwubpo+E0crzfcL8V91RSI1L2jXpnWQGZNozZeMN2maCYxGtHYxNUZx6bmdAdDqHUFABjrfdroxquLVlzAJelXKWSnp8gtrO2S6bhnHuDpLFyxJV9N7gWrOEkkLdgK25y5sbt6AZVJyoM6+GMbe7WvgnEyDM+Ke7pq4rn/l82tV7ewM2YXONMxzUtmev0WWZnjjPegmbbjV18M43btxc9ZxP5v+kgLp2a6M+WpQY64GtWOrMsWjUmNO5TOUu0Qb6QjNv0XTc0GgAc//AEnWfMl2btxHPO/YGsqxkmoHTIzlcguUTLN1A1lMpM3hqaO9BP8Azm+ey42zGuIkoM++zcuYlxWptAZ18M6b0XXxGcZgL/lPcsxak5nut/m/cM9NpPNJZdrnfzlLnazsaZvmgauJevFZzW+t4qYl8fYFlXEc94s1UG/TKskjPqh6gLV0zrWZvd1kxEqxc7rOcs83DfVUUAE1S2bOdl64+Teq9IzPKLjOKNF02eRWTNFVE3RpZpz4n1FTT4WXV1pwZRF55SmSfquP3BrRNs92gVGNfESLr4QEnM91vN90nM9y833VDdqbzdnnhvGIis3TOjNmHRNUzAZu+L3hi44MfDPzlrrPa/1BWFw1ZKSYCpZieSabepqXTf00RZJF6stdgVnVcTblpnVM8AzM43MkuTDKpLu6MasWS/JZxs0i2S/7YxZcNgUmmTzVRKCc6sQ9F7w0Te10BiaO9akk4UAABjXwy1r4icgk5+bV0zlmc/Nq6bbyosknBlJpkaQRnVbL4rSapnE/MAmdpjtz7md9/wDhmZvbb6GJzOPzaCnBkxb0PTRGbV06sL/8/P0X0TyB6osuTGmdlmOgKADN0ys4s65dGLcXcCz6s6dq1M6rnpE1z9SK0JOBUVjVu1WZM6oDppmNOFAAAAAGNfEZnFdNUy54xnKhnNjo5zme7V1b3ZNMaZuqZZuq1BY16/BnZBCDcuJj5Myb5/Kv9/YNXPgzUz90VFtp/YnUFvX86Lp4TDUBQAGdWrDTnq+LcF067bjCa827N8TZiJq4afdUT1A1eGdOZqlq5KUjoJOIqoAAAAM6ploBy4s9y833bsyWShnGJMtY2XhLcQEm64k/s08NAxva1hQGcH50/trCgzj83/okaATBhQAABnVpy0z6gZmrG30qZatqYRU5uHSSSYY0/FHQw1zsxcJlrVymAbm0VjNX1UpGgm4qAAAACYUBMGIoAAAAAAAAAAAACWZjPpvhsBjGoxq7NiRazp02XdoFRnVpzwmNXZsBjGrt9T06vDYQqaZiKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z",
+      "id": 25
+    },
+    {
+      "nome": "Capinha de celular Pikachu",
+      "preco": 15.99,
+      "descricao": "Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi Tajiri.",
+      "categoria": "diversos",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/2wBDAGRFS1hLP2RYUVhxamR3lvqjloqKlv/b57X6////////////////////////////////////////////////////2wBDAWpxcZaDlv+jo///////////////////////////////////////////////////////////////////////////wAARCAD/AP8DASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAApEAEBAAICAgIBBAICAwAAAAAAAQIRITEDQRJRcQQiMmETkUKxM4HB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwDoIqKAAAAAAAACyWtahoyarQzpiaNAaqE7VDTGt7Ssm0C1cYzOa2vMKANsgAAACgAADmMeD/yWf076iW4rA1qJpNEBFFEUBqY/a4zX5VLQQGVEAABARUASqAkummK1MpJy3KlUYuVvS41TGgFRQAAAAAebC68mN/8AX+3pefPC645d8MvljMvuM9LFRRlWTSoCaawntGsrqLoWyJ8pXDyeTV13WJ5ct9JlHrRPHnM8dxaAAgCKAACAAlZy6aRRzldPH3XPWrp2xmppqFaAaZAAAAAAc1lsQRW/lKrmqYNCbNs4qzs8nS4mc3AeK/zu/tcpNL5cdZb+zx4TLe63Ea8GXxz16r014r+3Kyeq9mGXzwl+2bARajKgKADPky+OG/ahcpO7ISy9XblPBlnj8rlq1xluGXHFjXlNesTHL5Yy/asqST5brbDUu41KlUBpAAAAAAHNQRQAAEl2DeHtpjG6rbNHDy47xs/088t9PZnPbzeTC43c6pzVrNmnf9Nf5R5/lbw9Phx/x4XLLja1HTLtEnkxzvFVlRQQHPzTeH4dBRwn6i44auO7Pbhbu2329GXglvF0Y+DHG7t23sTGvFLPHJWrZO6znlriOdYbkdd76L04y6u47ehLGseJsl55Zxy9fRv90bR0AVkAAABgBFAAPSSft2pj1YLGbbHTx5/LH+45U8d+Of8AVZqu7FxbREc8teOb1usY3/L5JM+pzp08uPyw49PLuy7nFa5Su36jDHHD5Sau/TXhz+eEt76ebPPLL+Vtenw43Hxzfd5OiOgJd647ZUHLD/J87ct6dQBMspjN1UHG1mtZTV0w06DtOJHPDHd3enRKzSYW3e9N44zFj/JriRcc/tuM10EVWQAAAGAEUAAXFFnYJlHPLjn6dq55QrUdZzFZ8V3hGmERzz8WOV31+Fyz+nO5X7ouNY+HDG71u/26OM8mU/t0xymU3CmY0iZWyftm2f336xEMs9XWM3T5Z3rHS44zH8/bQMTC73ld1sQEsl7Z+GM9NoiolU1wCXG637qY31XWXcYynO3RG8P4tM4zWLSsgAAAMAIoAAs7AFrGUbSwVnwXiz6rpl1XPH9ue/V4rqzRwrLpnjZ105jpEq+K/v19o6ePDXN7ErYDLAIACJsFQ1trQqSCgiLjJe+wWUa3omW0xu7dplxZY2mNiKqAAMAIoAAKARUa7gMZTa4Zf8b3/wBlYyiWK6pZL6jE8lnGX+26yJqTqAiAHJqgIvxXQM6qyKAAAAAgqAM2/wC2jq7WUanEipLtXRkABgBFAAUABcUJxQarFjdZorFjp47vH+5wxV8fGX5Zo2AyIKgAAAAIoAAAiKgAiwCXVa3zqMtYzXKyh0L9s49NSogCgACiKCKgDUu4WJOGgYsJ/KNVmfyn5Sq6IqMgAggqACAKRFgKioCI0gM09lT2DU7b9MY9tgl/ik9l6MemoVAGkAAFAEAAbx6Yax7Baz/yn5arPuJRtFRlQBARUBASgoQBpFnQCIqAzWWqz7FbxarOKiJl0s6ZyvK43ca5KCo0gqKAAAAAADdZ9xcekpRpFRhQBARUBEaQGZ20zWoCxWWu4CJVSgzWfa1JzeAdMegxvCXngGbLa1jNQ1rpZ03IgiooKigAAAAATsGp0WKlqWiom7DbCqrKygIoCIqAzTFaz1QaWVnac3oHSs0u7E+P9rglahJpWpMQAVAAURUAVFAAAABnO/HG2OePnsvMlXzXiRxqo9WHmxy96/LVeL26ePzXGay5x/6ZsXXpRccplN43cGFQ2qaBZVYPloGqh8peC8KIzrfS9tSSLIJMZFBpABUAAAAAEURQEUAAAAc/NlrHX2Dlnl8srWP/AItT6ionov0e9nrf2C45XHLeN074fqJeM5r+3mvEEsHvllm5dweHHLLG7xtjtj+ouv3Tf4ZvK69DGXXHaf5ZfVax5m0xTHH4zntoG0AFEFBEAAABMspj2pZLxS8cpqkCLID/2Q==",
+      "id": 26
+    },
+    {
+      "nome": "Super console X-Pro",
+      "preco": 450.99,
+      "descricao": "Certifique-se de que isso se encaixa inserindo o número do seu modelo. Jogos clássicos ricos - Mais de 117.000 jogos clássicos retrô e mais de 70 emuladores são integrados ao Super Console X Pro para reviver suas memórias de infância. A expansão do cartão TF é suportada para adicionar mais jogos.",
+      "categoria": "consoles",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAD6AP8DASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAApEAEAAgEDAwMDBQEAAAAAAAAAARECITFxEkFRMmGhgcHwQpGx0eHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AEzU99fzZeqf+x/Vk76V4Tzp2Qa6o7/2vVE94c57/T+WVHccImfK9cg7Dn1+YajOOAaEuJ7qAAAAAAAAAAAAAAAAAAAAAADjMzEzUnVP5Bl6pQF6r0TYAAAEUBFufMiA115Ndfs5gOvXHuvVj5cQHe48q863PkHccerLysZzcRoDqM5TMbMdWQOo5dWTUTlcX3BsAAAAAAAAAHHL1Si5eqUAAAAAVFBBQRlQFAKAFpARY3jkI3jkHTPsw3n25YuPACxvHJceCKuKjuDqCX7wCiXBelgo5zn4XHLWpBsSSAUZ6oWJsHLL1S1URuzPqluYuE0SYidmYi2sYox3nkU6fdlqsvLJiIuq47rE3oUSRY7zJPmO60jNDVR51QEFSp3rQFZVBQjeORY3jkRvPtyxu3ntHLAIsbwEeqOQdmJw9/htynKZ4BqYiZ3hnLSIx+rLUzf7AyKAXPlbnygA1jvMfVkiZvQDL1SRfYy3kiaBuZqGcb11pLubXbWEFi71tJ3ml6p8JG/ILjvKY7l6zK9XiNRTtPP3O31+6RNcSTPaAX9X1j+JI586Fxv3T3rXX5A2XW/aitPBpvfbYQjbn7FXRExpH5qbV9f5FTTx3kqIrzcfK6615k7RzFCLn25Ybz7csKBG8chG8cg6Z7Obee0OYKAAABPYTdrKKrj5BlvCNb8Qw6YbT+dgYy3llrLeWQVUBWrPhlQFARUAEAAtqJYAamYS/DKgLG8cwixvHMA3n25Ybz7csALG8coseqOQXPsmMXw61e4DPRH+JljesNgONTG8I7ZRcS4guO8c/Z1yi4c8N3UHB1xioaAcct5Zay3lkFEAWy0AWxAGhAAF6Zn/AEEG4xju1pGwOcYy10e/w1aAnR7pUxMcw0tgme0cubrNSz0e/wAAwuO8ctdHv8LGFTdg2AAAAxOHhsBnHGuWgAABxy3ZdJxmZOgHMdumFqPAONL0z4dkBz6J9l6PdssGZwjtuRj7/totoC6QWgAAAAAAAAC2tsgNjNrYKAAAAAAAAAACAJMqAyAAAAAAAAAAAAAAAALSgAAohAKAAAAAAipIAigMqoMi0gAAAAAAFwAALSglKigAAIAAlkbg2AAAAAAADIqAogCpQoMjSUCAAC0oJSpf1KvcC/BXlQASwAEsC0ABrFluAUAAAAAAAERpAQAAAFBAUABJUBIiFQAsEsFS0AAABVBGgAVFAAAAAAAABEaQEAAVAAACwssARAW0AAFBFVQRQABQAAAAAAAAAAAARGgGQAEAAABCQAVQRVAAAFAAAAAAAAAAAAAAAAABloBlGqSgQAAWlBKUAAUAAAAAAAAAAAAAAAAAAAAAAAAEFAQUAAAAAAAAAAAAAAB//9k=",
+      "id": 27
+    },
+    {
+      "nome": "Mini diorama Wall-E",
+      "preco": 120.9,
+      "descricao": "Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. WALL-E é o último destes robôs, e sua vida consiste em compactar o lixo existente no planeta. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, WALL-E se apaixona e resolve segui-la por toda a galáxia.",
+      "categoria": "diversos",
+      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAKBueIx4ZKCMgoy0qqC+8P//8Nzc8P//////////////////////////////////////////////////////////2wBDAaq0tPDS8P//////////////////////////////////////////////////////////////////////////////wAARCAD/AP8DASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAsEAEBAAIBBAIABQQCAwAAAAAAAQIRIQMSMUFRYRMycYGhIkKRsVLwIzPR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERMf/aAAwDAQACEQMRAD8A7AAAAAAAAAAAABeGLblfoDLPU34iTLeNuOV/dc8e7HTjjjljl4B0uUmEyh08+73ZWfH6UwwvdLLwDtLv9VS3lQAAAAAAAAAAAAAAAAAAAAAAATK6Ay54PDMs8s5Z+oC3PVS9Tc4jnvZlPgC0lvprp9Pu5vEdcenMQTDGznK8tgAAAAAAAAAAAAAAAAAAAAAAAWbAHLOZeoxhhc78T3XoAZuEs8eGdY+K6W6m3O7vN4BrC8a+GnGXV3L/AAvfl8g6m58uNyut21MbLfsHbunyrj+m28c9T+oGwAAAAAAAAAAAAAAAAAAAAS2SbBUuUnlnut+mcv6ZvzUGt8zjymWUjn3ZZXj/ABGstycwU1T5Jd4w53tUPVjGPz7b1fGiY2W2cbTVXejHVNam6upOYlo1hxNNOdndG8buc+VlFAVAAAAAAAAAAAAAAAABMpvGxQHO3LtnbPKXGf33d+GtepdJE1V7scZ8fTnl1O7jXDVx7vLWOGOM3/NIjGOp+7bOfUx9crjdxKpC+r8H936l5iKqTwTxyfIJjxbDLcylxvPx8rce6ceYmPH6xYjqEu5saQAAAAAAAAAAAAAAAAE7p8p+Jj8gl4tSTndXct3BiqM5490+1uUnms92WX5Z+5A/DmM3lV7e3meDX/K70uN1xWugJlxzj4Y7kwb3f0Tu+axbUXDXTHP+r6dMpv8Aqx8z+XBZdeLpUdcL7/z9Vt5+6+fftZnd+f0B3Exu8VAAAAAAAAAAAAAAvgGcscb5c+3G56l4Zsu9ys3dB27dc74HLHKy/P0uWdvCYNTHHG/JcmLctJP9mK13UuN83+Vk1FuUnibEXDLjWXhMsOdzwzN+3Wa1x4UY7ONsXh23ymUmgcVauMZ8ewFmGryzPLXNsgOvT8Vsk1NAAAAAAAAAAAAABfAXxQcK52t5eDtnbsGcfO74a4DQJPcqS6a0zeLQb5rVskTe4fQEs1vbUrP+N1N8/wC/sHSxm30x32faXP6BbWab3dgLhjcvEdsOn23dvK9PHtwn20AAAAAAAAAAAAAAAmf5aW/DGeWUnOqDnkvqSpLylvueQX9fB++0xy/yv3QLx/8AGb55a8fozdXwCz8uvt0lsm/LnhZ4qzL0DV/0zlVvhigIUgL6awx7spGZzfh6MMJjPm32DQAAAAAAAAAAAAABaXiOc6kt5BrevLN/q48rfmc/98pOdaFYuHPhb0uOLy6gjzXGy8pqu2U31Iz1JrL6oOZtaaBF7l0ePQJtNrfCSboBCk8g1+i452eKzu3wugdsOpvi/wCW3ltvrh0w6lmt+AdgAAAAAAAAADwmV05ZW2g1nlvieHMEahLZ4bnU+WAV2ll8Kx0/ytqwMdSbxrTOd1jQcF3yk5rfZATi+C5LcdM8/qCc1ZKt36ZBrmVbOGZdLKBpcLwnq/5TQLmTwaLxNAS2eLp6Md9s35cOnJcp3PQAAAAAAAADnneWdN543e4z4iKxZpHRm4ggllhKLrp07NabcFmeU9iY7bcurlLqM3K32zVFksrVy1flMYuWNt3KIsssTeuKsmo5283QNW7/AO6YX94ST5BrHwhPhdc+gS1ZVmPPK6QZ59Jq3y1pRTp4bvnWndwdsMu6faooAAAAAAADl1PzOpoHGLWssdXxwxUVbqsTHy16IDPZ9nZ9tgMdsLi6IDnrKfDW78NaNAzzfhntb0doMyKutAIa+mooMmmgGdGi1QRrp8ZMtdPfdv0DoAqAAAAAAAACXHG+lAYuH/GM3Gz06gONWOmV7cbb6cL1d38ugdGakzlnwnfNorYz3T5XunzAaGe6fMXc15gFRLnPlmZ/QOiuX4n0vffgHRPLnc8vp36eXdhKCfh781eyNCokxk9KAAAAAAAAAAAAAAAMdb/11z6mMkw1PLtlO7Gy+3C5543t34+gauMnWk1wzqfja1xtPxc/n+Ge693dvkHbKaupjhr7Z6uMkxskm/hzytyu75W5WyS+IDWcn4eNkc251MpNSpeplZq3gG8p/wCHHU5c9X4qzPKTUvBeplZq0CySTWW9+XTGSdPfH7uTWOdxmhW7eLzj+0Xof3Rjvyy4nP7OvSw7MefNBsAQAAAAAAAAAAAAAAAAefq9O43fmPQA8Y9OXSxv1+jF6F9WA5Dd6Wc9fyzccp6BlqHZl8f6WdPO+v5BLpl1nRy92RqdCe7sHGS26nl6MMJMZuS1rHHHHxFAAAAAAAAAAB//2Q==",
+      "id": 28
+    }
+  ],
+  "usuarios": [
+    {
+      "email": "jhxsantos@email.com",
+      "senha": "12345",
+      "nome": "José Henrique",
+      "tipo": "admin",
+      "id": 1
+    },
+    {
+      "email": "elisa@email.com",
+      "senha": "12345",
+      "nome": "Maria Elisa",
+      "tipo": "cliente",
+      "id": 2
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "consoles",
+      "nomeCategoria": "Consoles",
+      "id": 1
+    },
+    {
+      "categoria": "diversos",
+      "nomeCategoria": "Diversos",
+      "id": 2
+    },
+    {
+      "categoria": "starwars",
+      "nomeCategoria": "Star Wars",
+      "id": 3
+    },
+    {
+      "categoria": "funkopop",
+      "nomeCategoria": "Funko Pop",
+      "id": 4
+    },
+    {
+      "categoria": "canecas",
+      "nomeCategoria": "Canecas",
+      "id": 4
+    }
+  ]
+}

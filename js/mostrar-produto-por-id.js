@@ -2,6 +2,7 @@ import { preparaProdutosParaMostrar } from "./listar-produtos.js";
 import { removerProduto } from "./remover-produto.js";
 import { buscarProdutoPorId } from "./buscar-produto-por-id.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
+import { urlAPI } from "./urlAPI.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
 logOut.addEventListener("click", () => {
@@ -34,7 +35,7 @@ window.addEventListener("resize", (event) => {
 const lupa1 = document.querySelector(".cabecalho__pesquisa__lupa-1");
 lupa1.addEventListener("click", async () => {
     const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-    window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+    window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
     // pesquisar(termoPesquisa);
 })
 
@@ -74,7 +75,7 @@ inputPesquisa.addEventListener('keyup', (event) => {
 
     if (key == "Enter") { // codigo da tecla enter
         const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-        window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+        window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
         // pesquisar(termoPesquisa);
     }
 })
@@ -86,7 +87,7 @@ window.addEventListener("load", async () => {
     let idProduto = url.searchParams.get("idProduto");
 
     try {
-        const resposta = await buscarProdutoPorId("http://localhost:3000/produtos", idProduto);
+        const resposta = await buscarProdutoPorId(urlAPI + "/produtos/", idProduto);
 
         const nome      = resposta.nome;
         const categoria = resposta.categoria;
@@ -110,8 +111,14 @@ window.addEventListener("load", async () => {
                                 </div>
                             </div>
                         </div>`;
+        
+        // definir limite de produtos por página da busca
+        let qtdProdutosPorPagina = 4;
+        if (window.innerWidth > 1440) {
+            qtdProdutosPorPagina = 6;
+        }
 
-        const produtosSimilares = await preparaProdutosParaMostrar('http://localhost:3000/produtos?_page=1&_limit=6&categoria=' + categoria, categoria, "Produtos similares", "none");
+        const produtosSimilares = await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=${categoria}`, categoria, "Produtos similares", "none");
 
         const mostrarProduto = document.querySelector(".container__mostrar-produto");
         mostrarProduto.innerHTML = produto + produtosSimilares;
@@ -146,7 +153,7 @@ window.addEventListener("load", async () => {
                     }                    
                 }).then(async (result) => {   
                     if (result) {
-                        await removerProduto("http://localhost:3000/produtos", idProduto);
+                        await removerProduto(urlAPI + "/produtos/", idProduto);
                         window.location.href = "../html/listarProdutos.html";
                     }
                 });

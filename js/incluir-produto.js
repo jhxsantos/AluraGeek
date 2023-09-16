@@ -2,6 +2,7 @@ import { listarItens } from "./listar-produtos.js";
 import { buscarProdutoPorId } from "./buscar-produto-por-id.js";
 import { atualizarProduto } from "./atualizar-produto.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
+import { urlAPI } from "./urlAPI.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
 logOut.addEventListener("click", () => {
@@ -9,7 +10,7 @@ logOut.addEventListener("click", () => {
     window.location.reload();
 })
 
-window.addEventListener("resize", (event) => {
+window.addEventListener("resize", () => {
     const logotipo       = document.querySelector(".cabecalho__logo");
     const login          = document.querySelector(".cabecalho__login");
     const pesquisa       = document.querySelector(".cabecalho__pesquisa");
@@ -34,7 +35,7 @@ window.addEventListener("resize", (event) => {
 const lupa1 = document.querySelector(".cabecalho__pesquisa__lupa-1");
 lupa1.addEventListener("click", async () => {
     const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-    window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+    window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
     // pesquisar(termoPesquisa);
 })
 
@@ -74,7 +75,7 @@ inputPesquisa.addEventListener('keyup', (event) => {
 
     if (key == "Enter") { // codigo da tecla enter
         const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-        window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+        window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
         // pesquisar(termoPesquisa);
     }
 })
@@ -82,7 +83,7 @@ inputPesquisa.addEventListener('keyup', (event) => {
 
 const incluirProduto = async (nome, preco, descricao, categoria, imagem) => {
 
-    const resposta = await fetch("http://localhost:3000/produtos", {
+    const resposta = await fetch(`${urlAPI}/produtos`, {
         method: 'POST',
         headers: {
             'Content-Type' : 'application/json'
@@ -238,7 +239,7 @@ window.addEventListener("load", async () => {
 
     if (idProduto) {
         try {
-            const resposta = await buscarProdutoPorId("http://localhost:3000/produtos", idProduto);
+            const resposta = await buscarProdutoPorId(`${urlAPI}/produtos`, idProduto);
     
             const nome      = resposta.nome;
             const categoria = resposta.categoria;
@@ -261,7 +262,21 @@ window.addEventListener("load", async () => {
             document.querySelector("#cadastro__input__descricao").textContent = descricao;
 
         } catch(erro) {
-            alert("Erro: " + erro);
+            swal({
+                title: "Não foi possível carregar as informações do produto!",
+                text: erro + "",
+                icon: 'error',
+                closeOnClickOutside: false,
+                buttons: {
+                    confirm: {
+                      text: "OK",
+                      value: true,
+                      visible: true,
+                      className: "",
+                      closeModal: true
+                    }
+                }                    
+            })
         }
     
     }
@@ -271,7 +286,7 @@ window.addEventListener("load", async () => {
 async function preencherCategorias() {
     let categorias = '<option value="" selected disabled></option>';
 
-    const resposta = await listarItens('http://localhost:3000/categorias');
+    const resposta = await listarItens(`${urlAPI}/categorias`);
     resposta.forEach( elemento => {
         categorias += `<option class="option" value="${elemento.categoria}">${elemento.nomeCategoria}</option>`;
     });

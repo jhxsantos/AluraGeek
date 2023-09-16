@@ -1,6 +1,6 @@
-export const listarItens = async (URL) => {
+export const listarItens = async (url) => {
 
-    const resposta = await fetch(URL);
+    const resposta = await fetch(url);
     if (!resposta.ok) {
         throw new Error('Não foi possível listar os produtos. Erro ao executar o "fetch".');
     }

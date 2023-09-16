@@ -1,4 +1,5 @@
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
+import { urlAPI } from "./urlAPI.js";
 
 window.addEventListener("load", () => {  
     // verifica usuário logado
@@ -36,7 +37,7 @@ window.addEventListener("resize", (event) => {
 const lupa1 = document.querySelector(".cabecalho__pesquisa__lupa-1");
 lupa1.addEventListener("click", async () => {
     const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-    window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+    window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
     // pesquisar(termoPesquisa);
 })
 
@@ -76,7 +77,7 @@ inputPesquisa.addEventListener('keyup', (event) => {
 
     if (key == "Enter") { // codigo da tecla enter
         const termoPesquisa = document.querySelector(".cabecalho__pesquisa__input").value.toLowerCase();
-        window.location.href = "./html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
+        window.location.href = "../html/listarProdutos.html?termoPesquisa=" + termoPesquisa;
         // pesquisar(termoPesquisa);
     }
 })
@@ -99,7 +100,7 @@ btnlogin.addEventListener("click", async (evento) => {
 
 async function executaLogin(email, senha) {
     try {
-        const resposta = await fetch('http://localhost:3000/usuarios?email=' + email);
+        const resposta = await fetch(`${urlAPI}/usuarios?email=${email}`);
         const usuario  = await resposta.json();
 
         if (usuario.length > 0) {

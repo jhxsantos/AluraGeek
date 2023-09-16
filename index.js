@@ -1,6 +1,5 @@
-// import { removerProduto } from "./js/remover-produto.js";
-// import { atualizarProduto } from "./js/atualizar-produto.js";
 import { preparaProdutosParaMostrar } from "./js/listar-produtos.js";
+import { urlAPI } from "./js/urlAPI.js";
 import { verificaUsuarioLogado } from "./js/verifica-usuario-logado.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
@@ -87,10 +86,17 @@ window.addEventListener("load", async () => {
     // preenche a página com produtos
     try {
         let produtos = "";
+
+        // definir limite de produtos por página da busca
+        let qtdProdutosPorPagina = 4;
+        if (window.innerWidth > 1440) {
+            qtdProdutosPorPagina = 6;
+        }
+
         
-        produtos += await preparaProdutosParaMostrar('http://localhost:3000/produtos?_page=1&_limit=6&categoria=starwars', "starwars", "Star Wars", "verTudo");
-        produtos += await preparaProdutosParaMostrar('http://localhost:3000/produtos?_page=1&_limit=6&categoria=consoles', "consoles", "Consoles", "verTudo");
-        produtos += await preparaProdutosParaMostrar('http://localhost:3000/produtos?_page=1&_limit=6&categoria=diversos', "diversos", "Diversos", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=starwars`, "starwars", "Star Wars", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=consoles`, "consoles", "Consoles", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=diversos`, "diversos", "Diversos", "verTudo");
     
         const containerProdutos = document.querySelector("#container__produtos");
         if (produtos === "") {
@@ -102,7 +108,21 @@ window.addEventListener("load", async () => {
             containerProdutos.innerHTML = produtos;
         }
     } catch(erro){
-        console.log("Não foi possível carregar os produtos! Erro: " + erro);
+        swal({
+            title: "Não foi possível carregar os produtos!",
+            text: erro + '',
+            icon: 'error',
+            closeOnClickOutside: false,
+            buttons: {
+                confirm: {
+                  text: "OK",
+                  value: true,
+                  visible: true,
+                  className: "",
+                  closeModal: true
+                }
+            }                    
+        })
     }
 });
 

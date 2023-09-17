@@ -68,6 +68,8 @@ h2 {
     background-size: cover; 
     width: calc(100% - 2rem);
     height: 192px;
+    min-height: 191px;
+    max-height: 193px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

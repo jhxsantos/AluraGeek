@@ -75,7 +75,7 @@
     {
       "nome": "Boneco Grogu (baby Yoda)",
       "preco": 210.5,
-      "descricao": "Grogu, popularmente conhecido como Baby Yoda, é um personagem fictício da franquia Star Wars.",
+      "descricao": "Grogu é popularmente conhecido como Baby Yoda.",
       "categoria": "starwars",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z3C0HgAGDwJF67I6nQAAAABJRU5ErkJggg==",
       "id": 14
@@ -83,7 +83,7 @@
     {
       "nome": "Playstation 5",
       "preco": 5000,
-      "descricao": "O PlayStation 5 é um console desenvolvido pela Sony Interactive Entertainment.",
+      "descricao": "O PlayStation 5 é um console desenvolvido pela Sony.",
       "categoria": "consoles",
       "imagem": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk8PxfDwADYgHJvQ16TAAAAABJRU5ErkJggg==",
       "id": 15
@@ -139,7 +139,7 @@
     {
       "nome": "Super console X-Pro",
       "preco": 450.99,
-      "descricao": "Mais de 117.000 jogos clássicos são integrados ao Super Console X Pro.",
+      "descricao": "Mais de 117.000 jogos.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8+Z+hHgAHagJ5AEAVSAAAAABJRU5ErkJggg==",
       "id": 27
@@ -147,7 +147,7 @@
     {
       "nome": "Super Nintendo (SNES)",
       "preco": 619.99,
-      "descricao": "O Super (NES, SNES ou Super Nintendo) é um console 16 bits desenvolvido pela Nintendo.",
+      "descricao": "O Super NES é um console 16 bits.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNMYPhfDwAEBwHgPiHcsgAAAABJRU5ErkJggg==",
       "id": 28
@@ -155,7 +155,7 @@
     {
       "nome": "Sega Genesis (Mega Drive)",
       "preco": 1512.5,
-      "descricao": "Mega Drive (メガドライブ Mega Doraibu?), conhecido como Sega Genesis na América do Norte.",
+      "descricao": "Mega Drive é conhecido como Sega Genesis na América do Norte.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
       "id": 29
@@ -163,7 +163,7 @@
     {
       "nome": "Game stick 40k games",
       "preco": 56.3,
-      "descricao": "O Gamestick é um micro console de videogames da oitava geração com o sistema Android.",
+      "descricao": "Micro console de da oitava geração com sistema Android.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
       "id": 30
@@ -171,7 +171,7 @@
     {
       "nome": "Infanto (video game)",
       "preco": 66.9,
-      "descricao": "Lançado em 2015, o console INFANTO foi o primeiro videogame Retro Brasileiro, sendo comentado e avaliado pelos principais portais de tecnologia.",
+      "descricao": "Lançado em 2015, o console INFANTO foi o primeiro videogame Retro Brasileiro.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z3C0HgAGDwJF67I6nQAAAABJRU5ErkJggg==",
       "id": 31
@@ -179,7 +179,7 @@
     {
       "nome": "Nintendo 8bits (nintendinho)",
       "preco": 2700.9,
-      "descricao": "O Nintendo Entertainment System (abreviado como NES; popularmente chamado de Nintendinho no Brasil) é um console de videogame de 8 bits lançado pela Nintendo.",
+      "descricao": "O Nintendo Entertainment System é um console de videogame de 8 bits.",
       "categoria": "consoles",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
       "id": 38

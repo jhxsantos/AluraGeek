@@ -1,5 +1,5 @@
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
-import { urlAPI } from "./urlAPI.js";
+import { urlAPIUsuarios, firebaseSufix } from "./urlAPI.js";
 
 window.addEventListener("load", () => {  
     // verifica usuário logado
@@ -100,7 +100,7 @@ btnlogin.addEventListener("click", async (evento) => {
 
 async function executaLogin(email, senha) {
     try {
-        const resposta = await fetch(`${urlAPI}/usuarios?email=${email}`);
+        const resposta = await fetch(`${urlAPIUsuarios}${firebaseSufix}?email=${email}`);
         const usuario  = await resposta.json();
 
         if (usuario.length > 0) {

@@ -1,8 +1,8 @@
-import { urlAPI } from "./urlAPI.js";
+import { firebaseSufix, urlAPIProdutos } from "./urlAPI.js";
 
 export const atualizarProduto = async (idProduto, nome, preco, descricao, categoria, imagem) => {
 
-    const resposta = await fetch(`${urlAPI}/produtos/${idProduto}`, {
+    const resposta = await fetch(`${urlAPIProdutos}/${idProduto}${firebaseSufix}`, {
         method: "PUT",
         headers: {
             'content-type': "application/json"

@@ -1,5 +1,5 @@
 import { preparaProdutosParaMostrar } from "./js/listar-produtos.js";
-import { urlAPI } from "./js/urlAPI.js";
+import { firebaseSufix, urlAPIProdutos } from "./js/urlAPI.js";
 import { verificaUsuarioLogado } from "./js/verifica-usuario-logado.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
@@ -94,15 +94,15 @@ window.addEventListener("load", async () => {
         }
 
         
-        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=starwars`, "starwars", "Star Wars", "verTudo");
-        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=consoles`, "consoles", "Consoles", "verTudo");
-        produtos += await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=diversos`, "diversos", "Diversos", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPIProdutos}${firebaseSufix}?_page=1&_limit=${qtdProdutosPorPagina}&categoria=starwars`, "starwars", "Star Wars", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPIProdutos}${firebaseSufix}?_page=1&_limit=${qtdProdutosPorPagina}&categoria=consoles`, "consoles", "Consoles", "verTudo");
+        produtos += await preparaProdutosParaMostrar(`${urlAPIProdutos}${firebaseSufix}?_page=1&_limit=${qtdProdutosPorPagina}&categoria=diversos`, "diversos", "Diversos", "verTudo");
     
         const containerProdutos = document.querySelector("#container__produtos");
         if (produtos === "") {
             containerProdutos.innerHTML = '<div class="mensagem_container">' +
                                             '<p class="mensagem">Não há produtos para exibir</p>' +
-                                            '<a class="mensagem__botao" href="./html/cadastrarProdutos.html"}>Cadastrar produto</a>' +
+                                            '<a class="mensagem__botao botao" href="./html/cadastrarProdutos.html"}>Cadastrar produto</a>' +
                                             '</div>';
         } else {
             containerProdutos.innerHTML = produtos;

@@ -2,7 +2,7 @@ import { listarItens } from "./listar-produtos.js";
 import { buscarProdutoPorId } from "./buscar-produto-por-id.js";
 import { atualizarProduto } from "./atualizar-produto.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
-import { urlAPI } from "./urlAPI.js";
+import { firebaseSufix, urlAPIProdutos, urlAPICategorias } from "./urlAPI.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
 logOut.addEventListener("click", () => {
@@ -83,7 +83,7 @@ inputPesquisa.addEventListener('keyup', (event) => {
 
 const incluirProduto = async (nome, preco, descricao, categoria, imagem) => {
 
-    const resposta = await fetch(`${urlAPI}/produtos`, {
+    const resposta = await fetch(urlAPIProdutos + firebaseSufix, {
         method: 'POST',
         headers: {
             'Content-Type' : 'application/json'
@@ -96,7 +96,7 @@ const incluirProduto = async (nome, preco, descricao, categoria, imagem) => {
                     imagem: imagem
                 })
     });
-    
+
     if (!resposta.ok) {
         throw new Error('Problema ao executar o "fetch".');
     } 
@@ -196,7 +196,8 @@ btn.addEventListener("click", async (evento) => {
                 await atualizarProduto(idProduto, nome, preco, descricao, categoria, imagem);
                 window.location.href = "../html/mostrarProduto.html?idProduto=" + idProduto;
             } else {
-                await incluirProduto(nome, preco, descricao, categoria, imagem);
+                await incluirProduto(nome, preco, descricao, categoria, imagem);     
+                window.location.reload();
             }
         } catch(erro) {
             swal({
@@ -223,6 +224,20 @@ window.addEventListener("load", async () => {
 
     // verifica usuário logado
     verificaUsuarioLogado();
+
+    // testa se o usuário é administrador.
+    // Se não for, redireciona para a página inicial.
+    const usuarioLogado = JSON.parse(sessionStorage.getItem("usuarioLogado"));
+
+    if (usuarioLogado !== null) {
+        if (usuarioLogado.tipo !== "admin") {
+            window.location.href = "../index.html";
+            return;
+        }
+    } else{
+        window.location.href = "../index.html";
+        return;
+    }
   
     // preenche o combo de categorias
     try {
@@ -239,7 +254,7 @@ window.addEventListener("load", async () => {
 
     if (idProduto) {
         try {
-            const resposta = await buscarProdutoPorId(`${urlAPI}/produtos`, idProduto);
+            const resposta = await buscarProdutoPorId(urlAPIProdutos, idProduto);
     
             const nome      = resposta.nome;
             const categoria = resposta.categoria;
@@ -286,7 +301,7 @@ window.addEventListener("load", async () => {
 async function preencherCategorias() {
     let categorias = '<option value="" selected disabled></option>';
 
-    const resposta = await listarItens(`${urlAPI}/categorias`);
+    const resposta = await listarItens(urlAPICategorias);
     resposta.forEach( elemento => {
         categorias += `<option class="option" value="${elemento.categoria}">${elemento.nomeCategoria}</option>`;
     });

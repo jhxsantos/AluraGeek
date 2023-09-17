@@ -61,7 +61,17 @@
     .mostrar-produto {
         flex-direction: row;
         padding: 2rem;
+        justify-content: left;
     }   
+    
+    .mostrar-produto__imagem {
+        min-width: 399px;
+        max-width: 401px;
+    }
+
+    .mostrar-produto__descricao {
+        max-width: 600px;
+    }
 
     .botoes__editar-excluir {
         justify-content: left;

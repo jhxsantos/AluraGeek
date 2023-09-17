@@ -1,6 +1,8 @@
+import { firebaseSufix } from "./urlAPI.js";
+
 export const listarItens = async (url) => {
 
-    const resposta = await fetch(url);
+    const resposta = await fetch(url + firebaseSufix);
     if (!resposta.ok) {
         throw new Error('Não foi possível listar os produtos. Erro ao executar o "fetch".');
     }
@@ -37,9 +39,10 @@ export async function preparaProdutosParaMostrar(url, categoria, descricaoListag
     if (resposta.length === 0 && url !== "") {        
         resposta = await listarItens(url);  
     }
-
+    
     let produtos = "";
     resposta.forEach( produto => {
+
         const preco = parseFloat(produto.preco).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
         produtos +=
             `<div class="produto">

@@ -4,7 +4,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    width: 100%;
+    width: calc(100% - 2rem);
     height: 192px;
     display: flex;
     flex-direction: column;
@@ -54,6 +54,8 @@
     .banner {
         height: 350px;
         padding: 2rem;
+        width: calc(100% - 14rem);
+        width: calc(100% - 4rem);
     }
 
     .banner__titulo {
@@ -73,6 +75,7 @@
 
     .banner {
         padding: 2rem 7rem;
+        width: calc(100% - 14rem);
     }
 
 }

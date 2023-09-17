@@ -1,8 +1,9 @@
 import { preparaProdutosParaMostrar } from "./listar-produtos.js";
 import { listarItens } from "./listar-produtos.js";
 import { pesquisar } from "./pesquisa.js";
-import { urlAPI } from "./urlAPI.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
+import { urlAPICategorias } from "./urlAPI.js";
+import { urlAPIProdutos } from "./urlAPI.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
 logOut.addEventListener("click", () => {
@@ -91,13 +92,13 @@ window.addEventListener("load", async () => {
         let nomeCategoria = "Todos os produtos";
         let produtos = "";
         if (categoria) {
-            const resposta = await listarItens(`${urlAPI}/categorias?categoria=${categoria}`);
+            const resposta = await listarItens(`${urlAPICategorias}?categoria=${categoria}`);
             nomeCategoria = resposta[0].nomeCategoria;            
-            produtos = await preparaProdutosParaMostrar(`${urlAPI}/produtos?categoria=${categoria}`, categoria, nomeCategoria, "cadastro");
+            produtos = await preparaProdutosParaMostrar(`${urlAPIProdutos}?categoria=${categoria}`, categoria, nomeCategoria, "cadastro");
         } else if (termoPesquisa) { //pesquisar pelo termo informado
             produtos = await pesquisar(termoPesquisa);
         } else { //mostrar todos os produtos
-            produtos = await preparaProdutosParaMostrar(`${urlAPI}/produtos`, categoria, nomeCategoria, "cadastro");
+            produtos = await preparaProdutosParaMostrar(`${urlAPIProdutos}`, categoria, nomeCategoria, "cadastro");
         }
 
         let mensagem = "Não há produtos para exibir";

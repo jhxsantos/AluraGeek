@@ -2,7 +2,7 @@ import { preparaProdutosParaMostrar } from "./listar-produtos.js";
 import { removerProduto } from "./remover-produto.js";
 import { buscarProdutoPorId } from "./buscar-produto-por-id.js";
 import { verificaUsuarioLogado } from "./verifica-usuario-logado.js";
-import { urlAPI } from "./urlAPI.js";
+import { urlAPIProdutos } from "./urlAPI.js";
 
 const logOut = document.getElementById("cabecalho__login__usuario__sair");
 logOut.addEventListener("click", () => {
@@ -87,8 +87,7 @@ window.addEventListener("load", async () => {
     let idProduto = url.searchParams.get("idProduto");
 
     try {
-        const resposta = await buscarProdutoPorId(urlAPI + "/produtos/", idProduto);
-
+        const resposta = await buscarProdutoPorId(urlAPIProdutos, idProduto);
         const nome      = resposta.nome;
         const categoria = resposta.categoria;
         const preco     = parseFloat(resposta.preco).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
@@ -118,7 +117,7 @@ window.addEventListener("load", async () => {
             qtdProdutosPorPagina = 6;
         }
 
-        const produtosSimilares = await preparaProdutosParaMostrar(`${urlAPI}/produtos?_page=1&_limit=${qtdProdutosPorPagina}&categoria=${categoria}`, categoria, "Produtos similares", "none");
+        const produtosSimilares = await preparaProdutosParaMostrar(`${urlAPIProdutos}?_page=1&_limit=${qtdProdutosPorPagina}&categoria=${categoria}`, categoria, "Produtos similares", "none");
 
         const mostrarProduto = document.querySelector(".container__mostrar-produto");
         mostrarProduto.innerHTML = produto + produtosSimilares;
@@ -153,7 +152,7 @@ window.addEventListener("load", async () => {
                     }                    
                 }).then(async (result) => {   
                     if (result) {
-                        await removerProduto(urlAPI + "/produtos/", idProduto);
+                        await removerProduto(urlAPIProdutos, idProduto);
                         window.location.href = "../html/listarProdutos.html";
                     }
                 });

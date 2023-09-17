@@ -1,10 +1,10 @@
 import { listarItens } from "./listar-produtos.js";
 import { preparaProdutosParaMostrar } from "./listar-produtos.js";
-import { urlAPI } from "./urlAPI.js";
+import { urlAPIProdutos } from "./urlAPI.js";
 
 export async function pesquisar(termoPesquisa) {    
 
-    const produtos = await listarItens(`${urlAPI}/produtos`);
+    const produtos = await listarItens(urlAPIProdutos);
     let produtosEncontrados = [];
 
     if (termoPesquisa.length > 0) {

@@ -20,7 +20,7 @@
       "nome": "Estátua Mestre Yoda (20cm)",
       "preco": 900,
       "descricao": "Yoda é um personagem fictício no universo de Star Wars.",
-      "categoria": "diversos",
+      "categoria": "starwars",
       "imagem": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk8PxfDwADYgHJvQ16TAAAAABJRU5ErkJggg==",
       "id": 4
     },

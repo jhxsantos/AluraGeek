@@ -59,3 +59,17 @@ h2 {
     font-size: 14px;
     color: var(--cor-de-fundo);
 }
+
+.banner {
+    padding: 1rem;
+    background-image: url("banner.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: calc(100% - 2rem);
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+

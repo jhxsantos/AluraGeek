@@ -1,16 +1,3 @@
-.banner {
-    padding: 1rem;
-    background-image: url("../img/Banner.png");
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    width: calc(100% - 2rem);
-    height: 192px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 .banner__titulo {
     font-weight: 700;
 }

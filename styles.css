@@ -67,9 +67,9 @@ h2 {
     background-repeat: no-repeat; 
     background-size: cover; 
     width: calc(100% - 2rem);
-    height: 192px;
-    min-height: 191px;
-    max-height: 193px;
+    height: 301px;
+    min-height: 300px;
+    max-height: 301px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

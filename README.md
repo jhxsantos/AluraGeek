@@ -1,7 +1,7 @@
 # AluraGeek
 Projeto Front-End de loja virtual fictícia para o Alura Challenge 3° Edição
 
-Projeto para aplicar os conhecimento de front end adquirido nos cursos da Alura.
+Um projeto simples para aplicar os conhecimento de front end adquirido nos cursos da Alura.
 
 O site pode ser acessado pelo link do vercel: https://alura-geek-iota-jade.vercel.app/
 Não é possível realizar cadastro e edição, pois os dados estão em um mockServer que não permit POST e PUT.
@@ -12,7 +12,7 @@ Usuários para testar:
       José Henrique
             e-mail: jhxsantos@email.com
             senha:  12345
-            tipo:   admin
+            tipo:   admin (acessa o cadastro de produtos
             
       Maria Elisa
             e-mail: elisa@email.com

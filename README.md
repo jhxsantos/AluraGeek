@@ -5,7 +5,7 @@ Projeto Front-End desenvolvido para o Alura Challenges 3° Edição, com o objet
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | Alura Geek
-| :label: Tecnologias | HTML5, CSS, javascript
+| :label: Tecnologias | Javascript, CSS, HTML5
 | :rocket: URL         | https://alura-geek-iota-jade.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->

@@ -20,7 +20,7 @@
       "nome": "Estátua Mestre Yoda (20cm)",
       "preco": 900,
       "descricao": "Yoda é um personagem fictício no universo de Star Wars, criado por George Lucas. Ele aparece em seis filmes da saga. Frank Oz, célebre criador dos Muppets, é o responsável pela sua voz. Possui apenas 76 centímetros, mas foi um sábio Mestre Jedi que liderou o Conselho Jedi por anos.",
-      "categoria": "diversos",
+      "categoria": "starwars",
       "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAG/9oACAEBAAAAAAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAECEAAAAH//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDEAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
       "id": 4
     },
@@ -129,124 +129,12 @@
       "id": 21
     },
     {
-      "nome": "Funko Pop Pluto",
-      "preco": 110.2,
-      "descricao": "Pluto é um personagem da Disney, idealizado como um cão da raça bloodhound, que é o mascote do personagem Mickey. Destrambelhado, sempre arranja muita confusão, mas no fim acaba ajudando seu dono a desvendar alguns mistérios.",
-      "categoria": "funkopop",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABg1BMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6srKupqKampqKkpJ+ioZyfn5ienpacm5OampGZmI+Yl42WlYqWlYmVlIeUk4aTkoSSkYOSkIKRkIGRkICQj4CQj3+Qj36Qjn6Pjn2Pjn2Pjn2Pjn2PjnyPjnyPjnw7Y9lIAAAACklEQVQI12NoAAAAggCB3UNq9AAAAABJRU5ErkJggg==",
-      "id": 22
-    },
-    {
-      "nome": "Funko Pop Harry Potter",
-      "preco": 110.2,
-      "descricao": "Harry Potter é uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling. A série narra as aventuras de um jovem chamado Harry James Potter, que descobre aos 11 anos de idade que é um bruxo ao ser convidado para estudar na Escola de Magia e Bruxaria de Hogwarts.",
-      "categoria": "funkopop",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAACxFBMVEUDAgIHBgYJCAgMCgoODAwQDg0SEA8UERAVExEXFBMYFRQZFhQaFxUbFxYcGBYdGRf////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamoqKioqKimpqalpaWlpaWjo6OioqKioqKgoKCfn5+dnZ2dnZ2cnJybm5ubm5uZmZmYmJiYmJiWlpaVlZWTk5OTk5OSkpKRkZGRkZGPj4+Ojo6MjIyMjIyLi4uKioqKioqIiIiHh4eGhoaGhoaEhISDg4OBgYGBgYGAgIB/f39+fn5+fn58fHx7e3t6enp6enp4eHh3d3d2dnZ0dHR0dHRzc3NycnJxcXFvb29vb29ubm5tbW1sbGxqampqamppaWloaGhnZ2dmZmZkZGRkZGRjY2NiYmJhYWFgYGBeXl5dXV1dXV1cXFxbW1taWlpZWVlYWFhWVlZVVVVVVVVUVFRTU1NSUlJRUVFQUFBPT09OTk5NTU1MTExLS0tKSkpISEhHR0dGRkZFRUVERERDQ0NCQkJBQUFAQEA/Pz8+Pj4+Pj49PT08PDw7Ozs4ODc1NTQzMjIxLy8vLS0tKyorKSgqJyYoJiUnJCMmIyIlIiEkIR8jIB4jHx0iHh0iHhwhHRshHBsgHBogHBogGxogGxnVC4/NAAAACklEQVQI12N4DQAA7QDsdot0HAAAAABJRU5ErkJggg==",
-      "id": 23
-    },
-    {
-      "nome": "Funko Pop John Wick",
-      "preco": 1470.2,
-      "descricao": "John Wick é uma franquia de mídia de suspense e ação neo-noir americana criada pelo roteirista Derek Kolstad e estrelada por Keanu Reeves como John Wick, um ex-assassino que é forçado a voltar ao submundo do crime que havia abandonado.",
-      "categoria": "funkopop",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAACXlBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamoqKioqKimpqalpaWlpaWjo6OioqKioqKgoKCfn5+dnZ2dnZ2cnJybm5ubm5uZmZmYmJiYmJiWlpaVlZWTk5OTk5OSkpKRkZGRkZGPj4+Ojo6MjIyMjIyLi4uKioqKioqIiIiHh4eGhoaGhoaEhISDg4OBgYGBgYGAgIB/f39+fn5+fn58fHx7e3t6enp6enp4eHh3d3d2dnZ0dHR0dHRzc3NycnJxcXFvb29vb29ubm5ramxoZWplYWhjXmdhW2ZfV2RdVGNbUmJZT2FYTWFXS2BVSV9UR19TRV5SRF5SQ11RQl1QQV1QQF1PP11PPl1PPV1OPV1OPF1OPF1LPFdMPFpMPFlLPFhOO11OO11OO11OO11OO11OO11OO11OO11OO11OO11OO135KW/RAAAACklEQVQI12M4CQAAywDKR9z83AAAAABJRU5ErkJggg==",
-      "id": 24
-    },
-    {
-      "nome": "Funko Pop Tigre Tony (Sucrilhos)",
-      "preco": 89.99,
-      "descricao": "O Tigre Tony é um tigre fictício mascote da marca de cereais Sucrilhos Kellogg’s. Ele é bastante conhecido por aparecer estampados nas caixas de cereal dos Sucrilhos além de aparecer bastante nos comerciais como um personagem de animação",
-      "categoria": "funkopop",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABlVBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamopqWnpKKmoZ+knpuknZmjmpaimJOjl5GilY6hlIyhkoqhkYmhkIehj4WhjoWhjYOhjYKhjIGhjIChi4Chi3+ii36iin6iin2iin2jin2jin2jinyjinyjinyjinyjinyuOW0NAAAACklEQVQI12NoAwAAiACHvyM4uQAAAABJRU5ErkJggg==",
-      "id": 25
-    },
-    {
-      "nome": "Capinha de celular Pikachu",
-      "preco": 15.99,
-      "descricao": "Pikachu é uma espécie fictícia pertencente à franquia de mídia Pokémon da Nintendo. Ele apareceu pela primeira vez no Japão em 1996, nos jogos eletrônicos Pokémon Red and Blue, e foi criado por Satoshi Tajiri.",
-      "categoria": "diversos",
-      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAH/9oACAEBAAAAAD7/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAECEAAAAH//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDEAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
-      "id": 26
-    },
-    {
-      "nome": "Super console X-Pro",
-      "preco": 450.99,
-      "descricao": "Certifique-se de que isso se encaixa inserindo o número do seu modelo. Jogos clássicos ricos - Mais de 117.000 jogos clássicos retrô e mais de 70 emuladores são integrados ao Super Console X Pro para reviver suas memórias de infância. A expansão do cartão TF é suportada para adicionar mais jogos.",
-      "categoria": "consoles",
-      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAH/9oACAEBAAAAAD7/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAECEAAAAH//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDEAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
-      "id": 27
-    },
-    {
-      "nome": "Super Nintendo (SNES)",
-      "preco": 619.99,
-      "descricao": "O Super Nintendo Entertainment System (Super NES, SNES ou Super Nintendo) é um console de videogame de 16 bits desenvolvido pela Nintendo que foi lançado em 1990 no Japão, 1991 nos Estados Unidos, 1992 na Europa e Australásia (Oceania) e América do Sul em 1993. No Japão, o sistema é chamado de Super Famicom (em japonês: スーパーファミコン, transl. Sūpā Famikon), oficialmente, adotando o nome abreviado do seu antecessor, o Famicom), ou SFC para breve. Na Coreia do Sul, é conhecido como Super Comboy.",
-      "categoria": "consoles",
+      "nome": "Boneco Luke Skywalker",
+      "preco": 219.99,
+      "descricao": "Luke Skywalker é o protagonista da trilogia original da série Star Wars, além de fazer participação em quatro filmes de outras duas trilogias (A Vingança dos Sith, O Despertar da Força, Os Últimos Jedi e A Ascensão Skywalker). É interpretado pelo ator norte-americano Mark Hamill. Um personagem essencial e importante na luta da Aliança Rebelde contra o Império Galáctico, é o irmão gêmeo da líder rebelde Princesa Leia Organa de Alderaan,",
+      "categoria": "starwars",
       "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABVlBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb26urq4uLe2tbSzsrGysa+vrq2trKqsq6mqqaepp6WopqSnpaKmpKGlo6Ckop+koZ6joZ2ioJyioJyin5uhn5uhnpuhnpqhnpqhnpqgnpmgnpmgnpmgnZmgnZmgnZnYo4CuAAAACklEQVQI12MoBAAAcwBykmvn2gAAAABJRU5ErkJggg==",
       "id": 28
-    },
-    {
-      "nome": "Sega Genesis (Mega Drive)",
-      "preco": 1512.5,
-      "descricao": "Mega Drive (メガドライブ Mega Doraibu?), conhecido como Sega Genesis na América do Norte, é um console de videogame de 16 bits desenvolvido e comercializado pela Sega sendo um sucessor do Master System. O console foi lançado em 1988 no Japão como Mega Drive e em 1989 na América do Norte como Genesis. No ano de 1990, foi distribuído na Europa pela Virgin Mastertronic, na Nova Zelândia e Austrália pela Ozisoft e pela Tec Toy no Brasil. ",
-      "categoria": "consoles",
-      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAG/9oACAEBAAAAAEX/xAAUAQEAAAAAAAAAAAAAAAAAAAAG/9oACAECEAAAADP/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oACAEDEAAAAG//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
-      "id": 29
-    },
-    {
-      "nome": "Game stick 40k games",
-      "preco": 56.3,
-      "descricao": "O Gamestick é um micro console de videogames da oitava geração com o sistema Android. desenvolvido pela PlayJam, do tamanho de um pen drive, projetado para ser conectado diretamente a uma televisão, sem outros cabos ou conectores.",
-      "categoria": "consoles",
-      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAH/9oACAEBAAAAAEH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAECEAAAAH//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDEAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
-      "id": 30
-    },
-    {
-      "nome": "Infanto (video game)",
-      "preco": 66.9,
-      "descricao": "Lançado em 2015, o console INFANTO foi o primeiro videogame Retro Brasileiro, sendo comentado e avaliado pelos principais portais de tecnologia (TecMundo, Uol Games, Olhar Digital).\n\nOs melhores jogos da história, ganham vida no console de videogame INFANTO. Desde os icônicos personagens do Mario, até o futurístico combate do arcade GALAGA.\n\nSão mais 44 mil jogos de 52 diferentes videogames, todos incluídos em disco.",
-      "categoria": "consoles",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABcVBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra5tKO8sI+/rX7DrG7GqWDKqFTMpUjPoz3TojXWoSzYnybcnh/enRrhnBXkmxHmmg3omQvrmQjtmAbwmATymAP0lwL1lwH3lwH4lwD6lgD7lgD8lgD8lgD9lgD9lgD+lgD9lgDN0j84AAAACklEQVQI12OoAgAAfAB7vqQRrAAAAABJRU5ErkJggg==",
-      "id": 31
-    },
-    {
-      "nome": "Caneca Apple (iMug)",
-      "preco": 41.9,
-      "descricao": "Apple Inc. (NASDAQ: AAPL; anteriormente chamado de Apple Computer, Inc.) é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar produtos eletrônicos de consumo, software de computador e computadores pessoais. Os produtos de hardware mais conhecidos da empresa incluem a linha de computadores Macintosh, iPod, iPhone, iPad, Apple TV e o Apple Watch.",
-      "categoria": "canecas",
-      "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAG/9oACAEBAAAAAEX/xAAUAQEAAAAAAAAAAAAAAAAAAAAG/9oACAECEAAAADP/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oACAEDEAAAAG//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
-      "id": 32
-    },
-    {
-      "nome": "Caneca Space Invaders",
-      "preco": 41.9,
-      "descricao": "Space Invaders is a Japanese shooting video game released in 1978 by Taito. It was developed by Tomohiro Nishikado, who was inspired by other media: Breakout, The War of the Worlds, and Star Wars.[1] It is one of the forerunners of modern video gaming and helped expand the video game industry from a novelty to a global industry.[2][3] It was first released as an arcade game and later remade on different platforms; re-releases include ported and updated versions. ",
-      "categoria": "canecas",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAACFlBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamoqKioqKimpqalpaWlpaWjo6OioqKioqKgoKCfn5+dnZ2dnZ2cnJybm5ubm5uZmZmYmJiYmJiWlpaVlZWTk5OTk5OSkpKRkZGRkZGPj4+Ojo6MjIyMjIyLi4uKioqKioqIiIiHh4eGhoaGhoaEhISDg4OBgYGBgYGAgIB/f39+fn5+fn59enp8d3Z7dHJ8c3B8cG17bmp7bGd7amV8aWN8Z2F8Zl98ZV59ZFx9Y1t+Ylp+YVh/YFh/YFeAX1aAX1WBX1WBXlSCXlSCXlOCXlODXlODXVKEXVKEXVKEXVKEXVKOlTLkAAAACklEQVQI12PYCAAAswCyixxJiAAAAABJRU5ErkJggg==",
-      "id": 33
-    },
-    {
-      "nome": "Caneca Tabela Periódica",
-      "preco": 49.2,
-      "descricao": "A tabela periódica é uma disposição sistemática dos elementos químicos ordenados por seus números atômicos, configuração eletrônica, e recorrência das propriedades periódicas. Este ordenamento mostra tendências periódicas, tais como elementos com comportamentos similares na mesma coluna.",
-      "categoria": "canecas",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABa1BMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tK23sqS2r5u2rJK3q4u3qIO3p363pXe3o3G4omy5oGe5n2K6nl66nVq6nFa7nFO8m1C8mk29mku+mUi+mUa/mUW/mEPAmEHAmEDBmD/BmD/CmD7CmD3CmD3CmD3CmD20TRrfAAAACklEQVQI12OoAAAAegB5Ge+tOQAAAABJRU5ErkJggg==",
-      "id": 34
-    },
-    {
-      "nome": "Caneca Ubuntu Linux",
-      "preco": 55.3,
-      "descricao": "Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do núcleo Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. Esta distribuição Linux é desenvolvida pela Canonical Ltd.",
-      "categoria": "canecas",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAACcFBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamoqKioqKimpqalpaWlpaWjo6OioqKioqKgoKCfn5+dnZ2dnZ2cnJybm5ubm5uZmZmYmJiYmJiWlpaVlZWTk5OTk5OSkpKRkZGRkZGPj4+Ojo6MjIyMjIyLi4uKioqKioqIiIiHh4eGhoaGhoaEhISDg4OBgYGBgYGAgIB/f39+fn5+fn58fHx7e3t6enp6enp4eHh3d3d2dnZ0dHR0dHRzc3NycnJxcXFvb29vb29ubm5tbW1sbGxqampqamppaWloaGhnZ2dmZmZkZGRkZGRjY2NiYmJfXmBcWl9ZV11WVFxVUlxTT1tRTVpPS1lNSVhMR1hKRVdJQ1dIQldHQVdGQFZFP1ZFPlZEPVZEPFZDPFZDO1ZCO1ZCOldCOldCOldCOVdCOVdBOVdBOVdBOVhBOVhBOVhBOVhBOVi0VdR5AAAACklEQVQI12M4DwAA0QDQfVbAHQAAAABJRU5ErkJggg==",
-      "id": 35
-    },
-    {
-      "nome": "Caneca I Love 8bit",
-      "preco": 39.9,
-      "descricao": "Estamos na oitava geração de videogames e nos encaminhamos rapidamente para a nona ou décima. Mas nestes tempos de ritmo acelerado e domínio da nuvem que vivemos, em que tudo está disponível o tempo todo, muitas vezes um de nós para no meio da multidão de jogos indistinguíveis da realidade e sente uma nostalgia básica de jogos antigos que marcaram época. Não estou falando de jogos de tabuleiro, mas sim dos games da infância dos jogos eletrônicos e, em inúmeros casos, de nossa própria infância.",
-      "categoria": "canecas",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAABTVBMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkJCQkKCgoMDAwNDQ0ODg4PDw/////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb26u7m4ure1t7OytbCxta6us6ussamrsaepsKWnrqOmrqGlraCkrZ+jrJ2irJyhrJuhq5qgq5mgq5ifq5ifqpeeq5eeqpaeqpaeq5aeq5Weq5Weq5UkIloOAAAACklEQVQI12PIAwAAcABv7Y6j9QAAAABJRU5ErkJggg==",
-      "id": 36
     },
     {
       "nome": "Nintendo 8bits (nintendinho)",
@@ -255,14 +143,6 @@
       "categoria": "consoles",
       "imagem": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAAEAAQMBIgACEQEDEQH/xAAUAAEAAAAAAAAAAAAAAAAAAAAG/9oACAEBAAAAAEX/xAAUAQEAAAAAAAAAAAAAAAAAAAAG/9oACAECEAAAADP/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oACAEDEAAAAG//xAAUEAEAAAAAAAAAAAAAAAAAAAAA/9oACAEBAAE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
       "id": 38
-    },
-    {
-      "nome": "Caneca storm trooper",
-      "preco": 25,
-      "descricao": "Caneca Storm trooper",
-      "categoria": "canecas",
-      "imagem": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAACo1BMVEUAAAABAQEBAQEDAwMDAwMFBQUGBgYHBwcHBwcJCQkLCwsODQ0QEA8TEhEWFBMYFhX////+/v7+/v78/Pz8/Pz6+vr6+vr4+Pj4+Pj39/f19fX19fXz8/Pz8/Px8fHx8fHv7+/u7u7u7u7s7Ozs7Ozq6urq6uro6Ojn5+fn5+fl5eXl5eXj4+Pi4uLi4uLg4ODg4ODe3t7e3t7c3Nzb29vb29vZ2dnZ2dnX19fW1tbW1tbU1NTU1NTS0tLR0dHR0dHPz8/Nzc3Nzc3MzMzMzMzKysrJycnJycnHx8fHx8fFxcXExMTExMTCwsLBwcHBwcG/v7+/v7+9vb28vLy8vLy6urq5ubm5ubm3t7e2tra2tra0tLSysrKysrKxsbGxsbGvr6+urq6urq6srKyrq6urq6upqamoqKioqKimpqalpaWlpaWjo6OioqKioqKgoKCfn5+dnZ2dnZ2cnJybm5ubm5uZmZmYmJiYmJiWlpaVlZWTk5OTk5OSkpKRkZGRkZGPj4+Ojo6MjIyMjIyLi4uKioqKioqIiIiHh4eGhoaGhoaEhISDg4OBgYGBgYGAgIB/f39+fn5+fn58fHx7e3t6enp6enp4eHh3d3d2dnZ0dHR0dHRzc3NycnJxcXFvb29vb29ubm5tbW1sbGxqampqamppaWloaGhnZ2dmZmZkZGRkZGRjY2NiYmJhYWFgYGBeXl5dXV1dXV1cXFxbW1taWlpZWVlYWFhWVlZVVVVVVVVUVFRTU1NSUlJRUVFQUFBPT09OTk5NTU1MTExLS0tKSkpISEhGRUVEQkJBQD8/PTw+Ozk8OTc6NzU5NTM4NDE3Mi82MS41MCw0LyszLiozLSkyLCgyLCcxKyYxKyYxKiUwKiUwKSQwKSQwKSQwKSQwKSPVyHA3AAAACklEQVQI12N4AAAA4gDhv/hcQgAAAABJRU5ErkJggg==",
-      "id": 39
     }
   ],
   "usuarios": [

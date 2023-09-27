@@ -10,7 +10,6 @@ Projeto Front-End desenvolvido para o Alura Challenges 3° Edição, com o objet
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![AluraGeek](https://github.com/jhxsantos/AluraGeek/assets/140883650/52d7218a-8f15-48f1-ae64-d0f94d3038fa#vitrinedev)
-
 ## Detalhes do projeto
 Projeto Front-End de loja virtual fictícia para o Alura Challenge 3° Edição.
 

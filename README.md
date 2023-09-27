@@ -9,7 +9,7 @@ Projeto Front-End desenvolvido para o Alura Challenges 3° Edição, com o objet
 | :rocket: URL         | https://alura-geek-iota-jade.vercel.app/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![AluraGeek](https://github.com/jhxsantos/AluraGeek/assets/140883650/e7e6088f-a17b-4422-889c-0423f183ddd6#vitrinedev)
+![AluraGeek](https://github.com/jhxsantos/AluraGeek/assets/140883650/52d7218a-8f15-48f1-ae64-d0f94d3038fa#vitrinedev)
 
 ## Detalhes do projeto
 Projeto Front-End de loja virtual fictícia para o Alura Challenge 3° Edição.

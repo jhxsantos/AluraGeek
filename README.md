@@ -26,7 +26,7 @@ Usuários para testar:
       José Henrique
             e-mail: jhxsantos@email.com
             senha:  12345
-            tipo:   admin (acessa o cadastro de produtos
+            tipo:   admin (acessa o cadastro de produtos)
             
       Maria Elisa
             e-mail: elisa@email.com
